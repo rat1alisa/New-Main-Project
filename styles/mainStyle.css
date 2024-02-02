@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.informationAbout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    width: 100%;
+  
+
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 20px;
+
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+.iconsAbout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+
+    height: 50px;
+
+    transition: all 2s linear;
+}
+
+.helloText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+
+    height: 50px;
+}
+
+.tools{
+
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+
+    height: 50px;
+}
+
+.iconsStyle{
+    color: rgb(0, 0, 0);
+  }
+
+  .iconsStyle:hover, .iconsStyle:focus{
+    color: rgb(51, 51, 51);
+  }
+
+
+.logoBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.img{
+    width: 500px;
+    height: 200px;
+}
+
+
+.imgLogo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menuMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+.ulList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
