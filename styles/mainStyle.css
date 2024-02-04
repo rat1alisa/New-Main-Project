@@ -5,6 +5,8 @@
 html,body{
     margin: 0;
     padding: 0;
+    background-image: url("https://w.forfun.com/fetch/40/40727e045830b685e7fa3437d42b74b8.jpeg");
+    object-fit: cover;
 }
 
 header{
@@ -17,10 +19,12 @@ header{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: white;
 }
 
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -47,7 +51,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 10px;
+    gap: 25px;
 
     height: 50px;
 
@@ -71,7 +75,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 15px;
+    gap: 25px;
 
     height: 50px;
 }
@@ -114,6 +118,10 @@ a{
     justify-content: center;
     width: 100%;
     height: 50px;
+
+   
+    background-color: hsl(155, 30%, 80%);
+  color: hsl(155, 30%, 5%);
 }
 
 .ulList{
