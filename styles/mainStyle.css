@@ -116,7 +116,104 @@ a{
     object-fit: cover;
 }
 
+
+
 .menuMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 50px;
+
+    background-color: hsl(155, 30%, 80%);
+    color: hsl(155, 30%, 5%);
+  
+  position: relative;
+}
+
+.ulList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+
+.ulList li{
+  list-style: none;
+}
+.ulList a{
+  cursor: pointer;
+}
+
+.popUl{
+  position: fixed;
+  left: 0;
+  margin-top:20px;
+  display: none;
+}
+
+.popUl .popMenuElement{
+    display: block;
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+    font-weight: 500;
+}
+
+.popUl .menuElementName{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
+    
+    font-weight: 400;
+    font-size: 20px;
+  
+    cursor: pointer;
+}
+
+
+.menuMain .ulList .popUl li b{
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menuMain .ulList .ulLi:hover .popUl{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 13px;
+  
+  position: fixed;
+
+  width: 100%;
+  height: 200px;
+  
+  padding-left: 350px;
+  padding-right: 350px;
+
+  border-bottom: 1px solid black;
+
+  transition: transform 0.5s ease-out;
+
+  background-color: white;
+}
+
+
+
+
+
+
+/*.menuMain:hover + .popMenu{
+  display: block;
+}*/
+
+
+/*.menuMain{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,9 +237,9 @@ a{
 }
 
 
-/*POP UL -------------------------------------------------------*/
+POP UL -------------------------------------------------------*/
 
-#popMenu{
+/*.popMenu{
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -155,13 +252,12 @@ a{
 
     border-bottom: 1px solid black;
 
-    /*transform: translateY(0);*/
     transition: transform 0.5s ease-out;
 
     background-color: white;
 }
 
-.popUl{
+#popUl{
     display: flex;
     align-items: start;
     justify-content: center;
@@ -170,7 +266,7 @@ a{
     gap: 13px;
 }
 
-.popUl .popMenuElement{
+#popUl .popMenuElement{
     display: block;
 
     text-align: center;
@@ -180,7 +276,7 @@ a{
     font-weight: 500;
 }
 
-.popUl .menuElementName{
+#popUl .menuElementName{
     text-align: center;
     color: rgb(0, 0, 0);
     font-family: 'Playfair Display', serif;
@@ -190,7 +286,7 @@ a{
 }
 
 
-/*.menuMain .ulList a:hover ~ .popMenu{
+.menuMain .ulList a:hover ~ .popMenu{
     display:block;
 }
 
@@ -204,7 +300,7 @@ a{
 
 
 
-/*Slider -------------------------------------------------------*/
+/*Slider -------------------------------------------------------
 
 
 .photosBlock{
@@ -222,6 +318,38 @@ a{
 }
 
 .slick-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slick-track{
+    display: flex;
+    gap: 20px;
+}*/
+
+
+
+.photosBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    height: 300px;
+}
+
+.photosBlock .slider{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.photosBlock .slider .slick-slide{
+    width: 300px;
+    height: 300px;
+}
+
+.photosBlock .slider .slick-slide img{
     width: 100%;
     height: 100%;
     object-fit: cover;
