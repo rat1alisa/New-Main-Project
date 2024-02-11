@@ -124,21 +124,19 @@ a{
     justify-content: center;
 
     width: 100%;
-    height: 100px;
+    height: 50px;
 
     background-color: hsl(155, 30%, 80%);
     color: hsl(155, 30%, 5%);
   
-    position: relative;
-
-    font-size: 20px;
+  position: relative;
 }
 
 .ulList{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 75px;
 }
 
 .ulList li{
@@ -146,13 +144,15 @@ a{
 }
 .ulList a{
   cursor: pointer;
+  text-decoration: none;
 }
 
 .popUl{
   position: fixed;
   left: 0;
-  margin-top: 35px;
+  margin-top: 15px;
   display: none;
+  padding-bottom: 30px;
 }
 
 .popUl .popMenuElement{
@@ -160,7 +160,7 @@ a{
 
     text-align: center;
     color: rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 20px;
 
     font-weight: 500;
 }
@@ -171,50 +171,45 @@ a{
     font-family: 'Playfair Display', serif;
     
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
   
     cursor: pointer;
 }
 
+.menuMain .ulList .ulLi{
+    padding: 15px;
+}
 
 .menuMain .ulList .popUl li b{
-    font-family: 'Playfair Display', serif;
-}
-
-.ulLi{
-    padding-top: 35px;
-    padding-bottom: 35px;
-}
-
-.menuMain .ulList .popUl .menuElement:hover{
-    text-decoration: underline;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .menuMain .ulList .ulLi:hover .popUl{
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
 
-    gap: 15px;
-    
-    position: fixed;
+  gap: 13px;
+  
+  position: fixed;
 
-    width: 100%;
-    height: 300px;
-    
-    padding-left: 350px;
-    padding-right: 350px;
+  width: 100%;
+  height: 200px;
+  
+  padding-left: 300px;
+  padding-right: 300px;
 
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 
-    transition: transform 0.5s ease-out;
+  opacity: 1;
 
-    background-color:hsl(155, 30%, 80%);
 
-    transition: 2s;
-    animation: show 3s 1;
+  background-color: hsl(155, 30%, 80%);
 }
+
+
 
 
 
@@ -340,7 +335,7 @@ POP UL -------------------------------------------------------*/
 .slick-track{
     display: flex;
     gap: 20px;
-}*/
+}
 
 
 
@@ -372,4 +367,4 @@ POP UL -------------------------------------------------------*/
 .slick-track{
     display: flex;
     gap: 20px;
-}
+}*/
