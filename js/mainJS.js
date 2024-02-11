@@ -25,5 +25,8 @@ $(document).ready(function(){
         slidesToScroll: 3
       });
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> 25c2cc9027a43bbd4e832fc9e61aab78525e8146
 
