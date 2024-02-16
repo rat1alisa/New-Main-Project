@@ -19,6 +19,10 @@
 
     <link rel="stylesheet" href="../../styles/bootstrap.css">
 
+    <link rel="stylesheet" href="../../styles/slick/slick.css">
+
+    <link rel="stylesheet" href="../../styles/slick/slick-theme.css">
+
     <link rel="stylesheet" href="iphones.css">
 
 
@@ -159,7 +163,7 @@
 
         <div class="catalog-name">All models</div> 
  
-        <div class="catalog"> 
+        <div class="catalog" id="products-catalog">  
  
             <div class="one"> 
  
@@ -172,7 +176,7 @@
                 <div class="price">From $1199</div> 
  
                 <div class="buttons"> 
-                    <div type="button" class="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> 
+                    <div type="button" class="button" onclick="showProduct(1)"> 
                         More
                     </div>              
                 </div> 
@@ -281,7 +285,7 @@
         
         <!-- Modal -->
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h1 class="modal-title fs-5" id="staticBackdropLabel">iPhone 15 Pro Max</h1>
@@ -294,35 +298,39 @@
 
                             <div class="row align-items-center">
 
-                                <div class="col justify-content-center">
 
-                                    <img class="modalPhoto" src="https://mobilworld.by/upload/iblock/9c5/9c566a95b3fd15454e27cd7a21c8ca02.png" alt="iPhone 15 Pro Max" />
+                                <!--BASE-->
+                                <div class="col-md-8 align-items-center" >
+
+                                    <div class="slider" id="modal-slider"></div>
 
                                 </div>
 
-                                <div class="col">
 
-                                    <div class="row align-items-center">
-                                        <div class="col">
-                                            Picture 1
-                                          </div>
-                                          <div class="col">
-                                            First parm
-                                          </div>
-                                    </div>
+                                <div class="col-md-4">
+
                                     <div class="row">
-                                        <div class="col">
+                                        <div class="col-md-3">
+                                            Picture 1
+                                        </div>
+                                        <div class="col-md-6">
+                                            First parm
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-3">
                                             Picture 2
                                           </div>
-                                          <div class="col">
+                                          <div class="col-md-6">
                                             Second parm
                                           </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col">
+                                        <div class="col-md-3">
                                             Picture 3
                                           </div>
-                                          <div class="col">
+                                          <div class="col-md-6">
                                             Third parm
                                           </div>
                                     </div>
@@ -331,25 +339,13 @@
                                 
                             </div>
 
+                            <div class="row align-items-center">
 
-
-                            <!--<div class="col">
-                                
-                                <div class="col-sm-9">
-                                    Level 1: .col-sm-9
-                                    <div class="row">
-
-                                        <div class="col-8 col-sm-6">
-                                        Level 2: .col-8 .col-sm-6
-                                        </div>
-
-                                        <div class="col-4 col-sm-6">
-                                        Level 2: .col-4 .col-sm-6
-                                        </div>
-
-                                    </div>
+                                <div class="col-md-8 align-items-center">
+                                    
                                 </div>
-                            </div>-->
+
+                            </div>
                         </div>
                       </div>
                     <div class="modal-footer">
@@ -365,7 +361,11 @@
 
 
     <script src="../../js/bootstrap.js"></script>
-    <script src="../../js/mainJS.js"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
+    <script src="../../js/slick.min.js"></script>
+    <script src="products.js"></script>
     <script src="iphones.js"></script>
 </body>
 
