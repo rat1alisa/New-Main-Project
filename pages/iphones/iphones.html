@@ -195,7 +195,7 @@
                 <div class="price">From $999</div> 
  
                 <div class="buttons"> 
-                    <div type="button" class="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> 
+                    <div type="button" class="button" onclick="showProduct(2)"> 
                         More
                     </div>              
                 </div> 
@@ -214,7 +214,7 @@
                 <div class="price">From $899</div> 
  
                 <div class="buttons"> 
-                    <div type="button" class="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> 
+                    <div type="button" class="button" onclick="showProduct(3)"> 
                         More
                     </div>              
                 </div> 
@@ -233,7 +233,7 @@
                 <div class="price">From $799</div> 
  
                 <div class="buttons"> 
-                    <div type="button" class="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> 
+                    <div type="button" class="button" onclick="showProduct(4)"> 
                         More
                     </div>              
                 </div> 
@@ -253,7 +253,7 @@
                 <div class="price">From $599</div> 
  
                 <div class="buttons"> 
-                    <div type="button" class="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> 
+                    <div type="button" class="button" onclick="showProduct(5)"> 
                         More
                     </div>              
                 </div> 
@@ -273,7 +273,7 @@
                 <div class="price">From $429</div> 
  
                 <div class="buttons"> 
-                    <div type="button" class="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> 
+                    <div type="button" class="button" onclick="showProduct(6)"> 
                         More
                     </div>              
                 </div> 
@@ -300,7 +300,7 @@
 
 
                                 <!--BASE-->
-                                <div class="col-md-8 align-items-center" >
+                                <div class="col-md-8 justify-content-md-center" >
 
                                     <div class="slider" id="modal-slider"></div>
 
@@ -309,35 +309,52 @@
 
                                 <div class="col-md-4">
 
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            Picture 1
+                                    <div class="row justify-content-md-center border-bottom">
+                                        <div class="col-md-5">
+                                            <i class="gg-shape-square"></i>
                                         </div>
-                                        <div class="col-md-6">
-                                            First parm
+                                        <div class="col-md-7">
+                                            A titanium bezel
                                         </div>
                                     </div>
                                     
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            Picture 2
+                                    <div class="row justify-content-md-center border-bottom ">
+                                        <div class="col-md-5">
+                                            <svg class="usb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M641.5 256c0 3.1-1.7 6.1-4.5 7.5L547.9 317c-1.4 .8-2.8 1.4-4.5 1.4-1.4 0-3.1-.3-4.5-1.1-2.8-1.7-4.5-4.5-4.5-7.8v-35.6H295.7c25.3 39.6 40.5 106.9 69.6 106.9H392V354c0-5 3.9-8.9 8.9-8.9H490c5 0 8.9 3.9 8.9 8.9v89.1c0 5-3.9 8.9-8.9 8.9h-89.1c-5 0-8.9-3.9-8.9-8.9v-26.7h-26.7c-75.4 0-81.1-142.5-124.7-142.5H140.3c-8.1 30.6-35.9 53.5-69 53.5C32 327.3 0 295.3 0 256s32-71.3 71.3-71.3c33.1 0 61 22.8 69 53.5 39.1 0 43.9 9.5 74.6-60.4C255 88.7 273 95.7 323.8 95.7c7.5-20.9 27-35.6 50.4-35.6 29.5 0 53.5 23.9 53.5 53.5s-23.9 53.5-53.5 53.5c-23.4 0-42.9-14.8-50.4-35.6H294c-29.1 0-44.3 67.4-69.6 106.9h310.1v-35.6c0-3.3 1.7-6.1 4.5-7.8 2.8-1.7 6.4-1.4 8.9 .3l89.1 53.5c2.8 1.1 4.5 4.1 4.5 7.2z"/></svg>
                                           </div>
-                                          <div class="col-md-6">
-                                            Second parm
+                                          <div class="col-md-7">
+                                            USB-C port
                                           </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            Picture 3
+
+                                    <div class="row justify-content-md-center border-bottom">
+                                        <div class="col-md-5">
+                                            <i class="gg-camera"></i>
                                           </div>
-                                          <div class="col-md-6">
-                                            Third parm
+                                          <div class="col-md-7">
+                                            New 48-megapixel camera
                                           </div>
+                                    </div>
+
+                                    <div class="row justify-content-md-center border-bottom">
+                                        <div class="col-md-5">
+                                            <svg class="usb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M176 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64c-35.3 0-64 28.7-64 64H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H64v56H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H64v56H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H64c0 35.3 28.7 64 64 64v40c0 13.3 10.7 24 24 24s24-10.7 24-24V448h56v40c0 13.3 10.7 24 24 24s24-10.7 24-24V448h56v40c0 13.3 10.7 24 24 24s24-10.7 24-24V448c35.3 0 64-28.7 64-64h40c13.3 0 24-10.7 24-24s-10.7-24-24-24H448V280h40c13.3 0 24-10.7 24-24s-10.7-24-24-24H448V176h40c13.3 0 24-10.7 24-24s-10.7-24-24-24H448c0-35.3-28.7-64-64-64V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H280V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H176V24zM160 128H352c17.7 0 32 14.3 32 32V352c0 17.7-14.3 32-32 32H160c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32zm192 32H160V352H352V160z"/></svg>
+                                          </div>
+                                          <div class="col-md-7">
+                                            The new A17 Bionic processor
+                                          </div>
+                                    </div>
+                                    
+                                    <div class="row justify-content-md-center">
+                                        <div class="col">
+                                           <div class="priceCol">From 1199$</div>
+                                        </div>
                                     </div>
                                 
                                 </div>
                                 
                             </div>
+
 
                             <div class="row align-items-center">
 
