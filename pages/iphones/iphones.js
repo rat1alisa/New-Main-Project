@@ -34,7 +34,8 @@ function showProduct(productId){
         let sliderHtml = '';
 
         product.images.forEach((image) => {
-            sliderHtml += `<div><img class="modalPhoto" src="${image}" alt="${product.name}" /></div>`;
+            sliderHtml += `<div><img class="modalPhoto" src="${image}" alt="${product.name}" /></div>
+            `;
         });
 
         $('#modal-slider').html(sliderHtml);
