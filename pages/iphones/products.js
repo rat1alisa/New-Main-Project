@@ -1,3 +1,5 @@
+
+
 const products = [
     {
         id: 1,
@@ -8,7 +10,8 @@ const products = [
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15promax-digitalmat-gallery-1-202309_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1693346851426",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15promax-digitalmat-gallery-2-202309?wid=364&hei=333&fmt=png-alpha&.v=1693081545196",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15promax-digitalmat-gallery-4-202309?wid=364&hei=333&fmt=png-alpha&.v=1693081545196"
-        ]
+        ],
+        
     },
     {
         id: 2,
@@ -27,7 +30,7 @@ const products = [
         price: "From $899",
         images: [
             "https://mobilworld.by/upload/iblock/bda/bda42dff2feebdcadb7dd7ee5eac6ddd.png",
-            "https://d2xamzlzrdbdbn.cloudfront.net/products/c635b161-cfb9-4fcf-8e7f-c2ba5114a1e522090602.jpg",
+            "https://storage.googleapis.com/stateless-creative-it-ie/2023/11/b49c3de0-finish_iphone__bvnqblbns6r6_large_2x.jpg",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15-digitalmat-gallery-2-202309?wid=364&hei=333&fmt=png-alpha&.v=1693011169058",
             "https://mobilecare.sk/wp-content/uploads/2023/09/apple-iphone-15-plus-512-gb-modra-mu1p3sx-a-466631.jpg"
         ]
@@ -38,7 +41,7 @@ const products = [
         price: "From $799",
         images: [
             "https://manyphone.ru/upload/iblock/aa3/zn6myzavb1av890ryplr4zhw6mao6ccm.jpg",
-            "https://static9.edstatic.net/product_images/1280x1280/resize/1_dn59q9yv.png?v=1",
+            "https://focus.independent.ie/thumbor/feKL5Yaw-o5rW_P2sXP09ehaxVs=/0x24:2193x1486/960x640/prod-mh-ireland/0a806fd0-a9fb-11ed-bc1e-0210609a3fe2.jpeg",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14plus-digitalmat-gallery-2-202209?wid=364&hei=333&fmt=png-alpha&.v=1662055813701",
             "https://media.studio7thailand.com/93310/iPhone_14_Plus_1-square_medium.jpg"
         ]
