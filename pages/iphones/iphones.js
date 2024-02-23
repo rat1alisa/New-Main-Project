@@ -25,6 +25,8 @@ function showCategoryProducts(){
     $("#products-catalog").html(productsHtml);
 }
 
+
+
 function showProduct(productId){
     const product = products.find((phone) => {
         return phone.id === productId;
@@ -40,13 +42,24 @@ function showProduct(productId){
 
         $('#modal-slider').html(sliderHtml);
         $('#staticBackdrop').on('shown.bs.modal', function(){
-            $('.slider').slick();
+            $('#modal-slider').slick();
         });
+        $("#staticBackdrop").on("hidden.bs.modal", function (e) {
+            $("#modal-slider").slick("unslick");
+          });
         $('#staticBackdrop').modal('show');
 
     }
 }
 
+
 $(document).ready(function(){
     showCategoryProducts();
+});
+
+document.getElementById("ulLiBlur").addEventListener("mouseenter", () => {
+    document.getElementById("main1").style.filter = "blur(2px)";
+});
+document.getElementById("ulLiBlur").addEventListener("mouseleave", () => {
+  document.getElementById("main1").style.filter = "none";
 });
