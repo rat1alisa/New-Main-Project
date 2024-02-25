@@ -9,16 +9,16 @@ $('.autoSlider').slick({
 });
 
 //#h - id наведения
+$(".ulLi").hover(
+  () => {$("main").css({filter: "blur(2px)"})},
+  () => {$("main").css({filter: "none"})}
+);
 
-
-document.getElementById("ulLiBlur").addEventListener("mouseenter", () => {
+/*document.getElementById("ulLiBlur").addEventListener("mouseenter", () => {
     document.getElementById("main1").style.filter = "blur(2px)";
 });
 document.getElementById("ulLiBlur").addEventListener("mouseleave", () => {
   document.getElementById("main1").style.filter = "none";
-});
+});*/
 
-
-
-// ИЩЕМ ПО КЛАССУ И ПРОХОДИМ ПО НИМ ВСЕМ И КАЖДОМУ ДОБАВЛЯЕМ ЭТИ СТИЛИ
 
