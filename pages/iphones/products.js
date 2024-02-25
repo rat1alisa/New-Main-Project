@@ -11,6 +11,24 @@ const products = [
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15promax-digitalmat-gallery-2-202309?wid=364&hei=333&fmt=png-alpha&.v=1693081545196",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15promax-digitalmat-gallery-4-202309?wid=364&hei=333&fmt=png-alpha&.v=1693081545196"
         ],
+        parametrs: [
+            {
+                icon: "gg-shape-square",
+                value: "A titanium bezel"
+            },
+            {
+                icon: "gg-arrow-long-right-r",
+                value: "USB-C port"
+            },
+            {
+                icon: "gg-camera",
+                value: "New 48-megapixel camera"
+            },
+            {
+                icon: "gg-smartphone-chip",
+                value: "The new A17 Bionic processor"
+            }
+        ],
         
     },
     {
@@ -22,7 +40,25 @@ const products = [
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15pro-digitalmat-gallery-1-202309_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1693346851451",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15pro-digitalmat-gallery-2-202309?wid=364&hei=333&fmt=png-alpha&.v=1693081541434",
             "https://mobilworld.by/upload/iblock/c7e/c7efdccd3f82b1c92d84181ddede5572.png"
-        ]
+        ],
+        parametrs: [
+            {
+                icon: "gg-shape-square",
+                value: "A titanium bezel"
+            },
+            {
+                icon: "gg-arrow-long-right-r",
+                value: "USB-C port"
+            },
+            {
+                icon: "gg-camera",
+                value: "New 48-megapixel camera"
+            },
+            {
+                icon: "gg-smartphone-chip",
+                value: "The new A1 Bionic processor"
+            }
+        ],
     },
     {
         id: 3,
@@ -33,7 +69,25 @@ const products = [
             "https://storage.googleapis.com/stateless-creative-it-ie/2023/11/b49c3de0-finish_iphone__bvnqblbns6r6_large_2x.jpg",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15-digitalmat-gallery-2-202309?wid=364&hei=333&fmt=png-alpha&.v=1693011169058",
             "https://mobilecare.sk/wp-content/uploads/2023/09/apple-iphone-15-plus-512-gb-modra-mu1p3sx-a-466631.jpg"
-        ]
+        ],
+        parametrs: [
+            {
+                icon: "gg-arrows-expand-right",
+                value: "6.1-inch durable color-infused glass"
+            },
+            {
+                icon: "gg-arrow-long-right-r",
+                value: "USB-C port"
+            },
+            {
+                icon: "gg-camera",
+                value: "New 48-megapixel camera"
+            },
+            {
+                icon: "gg-smartphone-chip",
+                value: "The A16 Bionic processor"
+            }
+        ],
     },
     {
         id: 4,
@@ -44,7 +98,25 @@ const products = [
             "https://focus.independent.ie/thumbor/feKL5Yaw-o5rW_P2sXP09ehaxVs=/0x24:2193x1486/960x640/prod-mh-ireland/0a806fd0-a9fb-11ed-bc1e-0210609a3fe2.jpeg",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14plus-digitalmat-gallery-2-202209?wid=364&hei=333&fmt=png-alpha&.v=1662055813701",
             "https://media.studio7thailand.com/93310/iPhone_14_Plus_1-square_medium.jpg"
-        ]
+        ],
+        parametrs: [
+            {
+                icon: "gg-shape-square",
+                value: "A titanium bezel"
+            },
+            {
+                icon: "gg-battery-empty",
+                value: "All-day battery life with up to 20 hours of video playback"
+            },
+            {
+                icon: "gg-camera",
+                value: "A Pro-level Main camera"
+            },
+            {
+                icon: "gg-smartphone-chip",
+                value: "The A15 Bionic processor (the same in iPhone 13 Pro)"
+            }
+        ],
     },
     {
         id: 5,
@@ -55,7 +127,25 @@ const products = [
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1677662648569",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122"
-        ]
+        ],
+        parametrs: [
+            {
+                icon: "gg-shape-square",
+                value: "Ceramic Shield"
+            },
+            {
+                icon: "gg-dice-5",
+                value: "5G for superfast downloads and high-quality streaming"
+            },
+            {
+                icon: "gg-camera",
+                value: "Dual-camera system"
+            },
+            {
+                icon: "gg-smartphone-chip",
+                value: "The A15 Bionic processor with 4-core GPU"
+            }
+        ],
     },
     {
         id: 6,
@@ -66,6 +156,24 @@ const products = [
             "https://static9.edstatic.net/product_images/1280x1280/resize/1_dn59q9yv.png?v=1",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14plus-digitalmat-gallery-2-202209?wid=364&hei=333&fmt=png-alpha&.v=1662055813701",
             "https://media.studio7thailand.com/93310/iPhone_14_Plus_1-square_medium.jpg"
-        ]
+        ],
+        parametrs: [
+            {
+                icon: "gg-arrows-expand-right",
+                value: "4.7-inch Retina HD display"
+            },
+            {
+                icon: "gg-touchpad",
+                value: "Home button with Touch ID"
+            },
+            {
+                icon: "gg-camera",
+                value: "Smarter camera makes automatic adjustments so faces, places, everything looks fabulous"
+            },
+            {
+                icon: "gg-smartphone-chip",
+                value: "The A15 Bionic processor (the same in iPhone 13)"
+            }
+        ],
     }
 ];
