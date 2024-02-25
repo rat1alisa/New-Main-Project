@@ -40,7 +40,27 @@ function showProduct(productId){
             `;
         });
 
+        let infoHtml = '';
+
+        product.parametrs.forEach((parametr) => {
+            infoHtml += `
+            <div class="w-100 p-3 border-bottom d-flex align-items-start">
+                <i class="${parametr.icon} me-3" style="margin-top:7px"></i>  ${parametr.value} 
+            </div>
+        `;
+        });
+
+        infoHtml += `<div class="priceCol">${product.price}</div>`;
+
+        let nameHtml = '';
+        nameHtml += `<h1 class="modal-title fs-5" id="staticBackdropLabel">${product.name}</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>`;
+
+
         $('#modal-slider').html(sliderHtml);
+        $('#parametrModal').html(infoHtml);
+        $('#modalName').html(nameHtml);
+        
         $('#staticBackdrop').on('shown.bs.modal', function(){
             $('#modal-slider').slick();
         });
@@ -57,9 +77,7 @@ $(document).ready(function(){
     showCategoryProducts();
 });
 
-document.getElementById("ulLiBlur").addEventListener("mouseenter", () => {
-    document.getElementById("main1").style.filter = "blur(2px)";
-});
-document.getElementById("ulLiBlur").addEventListener("mouseleave", () => {
-  document.getElementById("main1").style.filter = "none";
-});
+$(".ulLi").hover(
+    () => {$("main").css({filter: "blur(2px)"})},
+    () => {$("main").css({filter: "none"})}
+  );
