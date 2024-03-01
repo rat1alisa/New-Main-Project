@@ -40,6 +40,10 @@ function showProduct(productId){
             `;
         });
 
+
+
+        //------
+
         let infoHtml = '';
 
         product.parametrs.forEach((parametr) => {
@@ -52,14 +56,29 @@ function showProduct(productId){
 
         infoHtml += `<div class="priceCol">${product.price}</div>`;
 
+
+
+        //------
+
         let nameHtml = '';
         nameHtml += `<h1 class="modal-title fs-5" id="staticBackdropLabel">${product.name}</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>`;
 
+        //------
+
+
+        let colorHtml = '';
+
+        colorHtml += `<div class="colorAvaible">Available in ${product.colors.length} finishes</div>`;
+
+        product.colors.forEach((color) => {
+            colorHtml += `<div class="color" style="background: ${color}; border: 0.5px solid black"></div>`;
+        });
 
         $('#modal-slider').html(sliderHtml);
         $('#parametrModal').html(infoHtml);
         $('#modalName').html(nameHtml);
+        $('#addColor').html(colorHtml);
         
         $('#staticBackdrop').on('shown.bs.modal', function(){
             $('#modal-slider').slick();
