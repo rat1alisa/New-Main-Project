@@ -29,6 +29,12 @@ const products = [
                 value: "The new A17 Bionic processor"
             }
         ],
+        colors: [
+            "#a7a6a3",
+            "#cfcfcd",
+            "#415C71",
+            "#59595c"
+        ],
         
     },
     {
@@ -59,6 +65,12 @@ const products = [
                 value: "The new A1 Bionic processor"
             }
         ],
+        colors: [
+            "#a7a6a3",
+            "#cfcfcd",
+            "#415C71",
+            "#59595c"
+        ],
     },
     {
         id: 3,
@@ -87,6 +99,13 @@ const products = [
                 icon: "gg-smartphone-chip",
                 value: "The A16 Bionic processor"
             }
+        ],
+        colors: [
+            "#DBFFFE",
+            "#FEF6FD",
+            "#FFF9DB",
+            "#DBFFDF",
+            "#5a5a5a"
         ],
     },
     {
@@ -117,6 +136,13 @@ const products = [
                 value: "The A15 Bionic processor (the same in iPhone 13 Pro)"
             }
         ],
+        colors: [
+            "#FFFFFF",
+            "#00021F",
+            "#B5C9E3",
+            "#F1EBFF",
+            "#FDFF7A"
+        ],
     },
     {
         id: 5,
@@ -146,6 +172,13 @@ const products = [
                 value: "The A15 Bionic processor with 4-core GPU"
             }
         ],
+        colors: [
+            "#F8E3F2",
+            "#FFFFFF",
+            "#158ABC",
+            "#001D29",
+            "#00290C"
+        ],
     },
     {
         id: 6,
@@ -153,9 +186,9 @@ const products = [
         price: "From $429",
         images: [
             "https://app-minsk.by/files/items/4440/icon_480x390.png",
-            "https://static9.edstatic.net/product_images/1280x1280/resize/1_dn59q9yv.png?v=1",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14plus-digitalmat-gallery-2-202209?wid=364&hei=333&fmt=png-alpha&.v=1662055813701",
-            "https://media.studio7thailand.com/93310/iPhone_14_Plus_1-square_medium.jpg"
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579596",
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246",
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760"
         ],
         parametrs: [
             {
@@ -174,6 +207,11 @@ const products = [
                 icon: "gg-smartphone-chip",
                 value: "The A15 Bionic processor (the same in iPhone 13)"
             }
+        ],
+        colors: [
+            "#FFFFFF",
+            "#121212",
+            "#8A0000",
         ],
     }
 ];
