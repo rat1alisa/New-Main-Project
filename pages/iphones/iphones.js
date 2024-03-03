@@ -46,6 +46,8 @@ function showProduct(productId){
 
         let infoHtml = '';
 
+        infoHtml += `<div class="nameModal">${product.name}</div>`;
+
         product.parametrs.forEach((parametr) => {
             infoHtml += `
             <div class="w-100 p-3 border-bottom d-flex align-items-start">
@@ -60,9 +62,9 @@ function showProduct(productId){
 
         //------
 
-        let nameHtml = '';
+        /*let nameHtml = '';
         nameHtml += `<h1 class="modal-title fs-5" id="staticBackdropLabel">${product.name}</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>`;
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>`;*/
 
         //------
 
@@ -72,12 +74,12 @@ function showProduct(productId){
         colorHtml += `<div class="colorAvaible">Available in ${product.colors.length} finishes</div>`;
 
         product.colors.forEach((color) => {
-            colorHtml += `<div class="color" style="background: ${color}; border: 0.5px solid black"></div>`;
+            colorHtml += `<div class="color" style="background: ${color}; border: 0.2px solid lightgrey"></div>`;
         });
 
         $('#modal-slider').html(sliderHtml);
         $('#parametrModal').html(infoHtml);
-        $('#modalName').html(nameHtml);
+        //$('#modalName').html(nameHtml);
         $('#addColor').html(colorHtml);
         
         $('#staticBackdrop').on('shown.bs.modal', function(){
@@ -100,3 +102,4 @@ $(".ulLi").hover(
     () => {$("main").css({filter: "blur(2px)"})},
     () => {$("main").css({filter: "none"})}
   );
+
