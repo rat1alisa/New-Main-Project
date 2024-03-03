@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(function(){
     $('.slider').slick({
         infinite: true,
@@ -5,3 +6,29 @@ $(document).ready(function(){
         slidesToScroll: 3
       });
 });
+=======
+
+
+
+$('.autoSlider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 5000,
+});
+
+//#h - id наведения
+$(".ulLi").hover(
+  () => {$("main").css({filter: "blur(2px)"})},
+  () => {$("main").css({filter: "none"})}
+);
+
+/*document.getElementById("ulLiBlur").addEventListener("mouseenter", () => {
+    document.getElementById("main1").style.filter = "blur(2px)";
+});
+document.getElementById("ulLiBlur").addEventListener("mouseleave", () => {
+  document.getElementById("main1").style.filter = "none";
+});*/
+
+
+>>>>>>> ff8e880507dd24f0f542690d7afcbc49f85aaf3b

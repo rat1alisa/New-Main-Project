@@ -19,6 +19,10 @@
 
     <link rel="stylesheet" href="../../styles/bootstrap.css">
 
+    <link rel="stylesheet" href="../../styles/slick/slick.css">
+
+    <link rel="stylesheet" href="../../styles/slick/slick-theme.css">
+
     <link rel="stylesheet" href="iphones.css">
 
 
@@ -54,10 +58,10 @@
                 
                     <ul class="popUl">
                         <li><b src="" class="menuElementName">iPhone</b></li>
-                        <li><a src="" class="popMenuElement">All Models</a></li>
-                        <li><a src="" class="popMenuElement">iPhone 15</a></li>
-                        <li><a src="" class="popMenuElement">iPhone 14</a></li>
-                        <li><a src="" class="popMenuElement">iPhone 13</a></li>
+                        <li><a src="" class="popMenuElement">iPad</a></li>
+                        <li><a src="" class="popMenuElement">Mac</a></li>
+                        <li><a src="" class="popMenuElement">Watch</a></li>
+                        <li><a src="" class="popMenuElement">Support</a></li>
                       </ul>
 
                 </li>
@@ -147,19 +151,19 @@
                 </li>
               
             </ul>
-        </div>
+  </div>
 
     </header>
 
 
 
 
-    <main>
+    <main id="main1">
 
 
         <div class="catalog-name">All models</div> 
  
-        <div class="catalog"> 
+        <div class="catalog" id="products-catalog">  
  
             <div class="one"> 
  
@@ -172,7 +176,7 @@
                 <div class="price">From $1199</div> 
  
                 <div class="buttons"> 
-                    <div type="button" class="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> 
+                    <div type="button" class="button" onclick="showProduct(1)"> 
                         More
                     </div>              
                 </div> 
@@ -191,7 +195,7 @@
                 <div class="price">From $999</div> 
  
                 <div class="buttons"> 
-                    <div type="button" class="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> 
+                    <div type="button" class="button" onclick="showProduct(2)"> 
                         More
                     </div>              
                 </div> 
@@ -210,7 +214,7 @@
                 <div class="price">From $899</div> 
  
                 <div class="buttons"> 
-                    <div type="button" class="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> 
+                    <div type="button" class="button" onclick="showProduct(3)"> 
                         More
                     </div>              
                 </div> 
@@ -229,7 +233,7 @@
                 <div class="price">From $799</div> 
  
                 <div class="buttons"> 
-                    <div type="button" class="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> 
+                    <div type="button" class="button" onclick="showProduct(4)"> 
                         More
                     </div>              
                 </div> 
@@ -249,7 +253,7 @@
                 <div class="price">From $599</div> 
  
                 <div class="buttons"> 
-                    <div type="button" class="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> 
+                    <div type="button" class="button" onclick="showProduct(5)"> 
                         More
                     </div>              
                 </div> 
@@ -269,7 +273,7 @@
                 <div class="price">From $429</div> 
  
                 <div class="buttons"> 
-                    <div type="button" class="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> 
+                    <div type="button" class="button" onclick="showProduct(6)"> 
                         More
                     </div>              
                 </div> 
@@ -283,9 +287,8 @@
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel">iPhone 15 Pro Max</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-header" id="modalName">
+                        
                     </div>
                     <div class="modal-body">
 
@@ -294,62 +297,60 @@
 
                             <div class="row align-items-center">
 
-                                <div class="col justify-content-center">
 
-                                    <img class="modalPhoto" src="https://mobilworld.by/upload/iblock/9c5/9c566a95b3fd15454e27cd7a21c8ca02.png" alt="iPhone 15 Pro Max" />
+                                <!--BASE-->
+                                <div class="col-md-8">
+
+                                    <div class="slider" id="modal-slider"></div>
+
+                                    <div class="aboutColors">
+                                    
+                                        <div class="colors" id="addColor">
+                                            <!--<li class="color" style="background: white;"></li>
+                                            <li class="color" ></li>
+                                            <li class="color"></li>
+                                            <li class="color"></li>-->
+                                        </div>
+                                        
+                                    </div>
 
                                 </div>
 
-                                <div class="col">
+                                <div class="col-md-4" id="parametrModal">
 
-                                    <div class="row align-items-center">
-                                        <div class="col">
-                                            Picture 1
-                                          </div>
-                                          <div class="col">
-                                            First parm
-                                          </div>
+
+                                    <div class="row justify-content-md-center border-bottom">
+                                        
+                                        
                                     </div>
-                                    <div class="row">
-                                        <div class="col">
-                                            Picture 2
-                                          </div>
-                                          <div class="col">
-                                            Second parm
-                                          </div>
+                                    
+                                    <div class="row justify-content-md-center border-bottom">
+                                       
                                     </div>
-                                    <div class="row">
-                                        <div class="col">
-                                            Picture 3
-                                          </div>
-                                          <div class="col">
-                                            Third parm
-                                          </div>
+
+                                    <div class="row justify-content-md-center border-bottom" >
+                                       
                                     </div>
-                                
+
+                                    <div class="row justify-content-md-center border-bottom" >
+                                        
+                                    </div>
+                                    
+                                    <div class="row justify-content-md-center">
+                                        
+                                    </div>
                                 </div>
                                 
                             </div>
 
 
+                            <div class="row justify-content-md-center">
 
-                            <!--<div class="col">
-                                
-                                <div class="col-sm-9">
-                                    Level 1: .col-sm-9
-                                    <div class="row">
-
-                                        <div class="col-8 col-sm-6">
-                                        Level 2: .col-8 .col-sm-6
-                                        </div>
-
-                                        <div class="col-4 col-sm-6">
-                                        Level 2: .col-4 .col-sm-6
-                                        </div>
-
-                                    </div>
+                                <div class="col-md-8 align-items-center">
+                                    
                                 </div>
-                            </div>-->
+
+                            </div>
                         </div>
                       </div>
                     <div class="modal-footer">
@@ -361,11 +362,90 @@
 
     
 
+
+        <!-------------------------End------------------>
+
+        <div class="mainEnd">
+            <div class="lastOnesAgain">
+
+                <ul class="lastOne">
+                    <li id="lastOneName">Shop and Learn</li>
+                    <li>Store</li>
+                    <li>iPhone</li>
+                    <li>iPad</li>
+                    <li>Mac</li>
+                    <li>Watch</li>
+                    <li>Vision</li>
+                    <li>AirPods</li>
+                    <li>Accessories</li>
+                    <li>Support</li>
+                </ul>
+
+                <ul class="lastOne">
+                    <li id="lastOneName">Entertainment</li>
+                    <li>Apple One</li>
+                    <li>Apple TV+</li>
+                    <li>Apple Music</li>
+                    <li>Spotify</li>
+                    <li>Apple Books</li>
+                    <li>Apple Wallet</li>
+                    <li>Apple Store</li>
+                    <li>Apple Podcasts</li>
+                </ul>
+
+                <ul class="lastOne">
+                    <li id="lastOneName">Apple Store</li>
+                    <li>Find a Store</li>
+                    <li>Today at Apple</li>
+                    <li>Apple Trade In</li>
+                    <li>Apple Store App</li>
+                    <li>Shopping Help</li>
+                </ul>
+
+                <ul class="lastOne">
+                    <li id="lastOneName">Partners</li>
+                    <li>Spotify</li>
+                    <li>Dyson</li>
+                    <li>Nike</li>
+                    <li>Healthy</li>
+                </ul>
+
+                <ul class="lastOne">
+                    <li id="lastOneName">Entertainment</li>
+                    <li>Apple One</li>
+                    <li>Apple TV+</li>
+                    <li>Apple Music</li>
+                    <li>Spotify</li>
+                    <li>Apple Books</li>
+                    <li>Apple Wallet</li>
+                    <li>Apple Store</li>
+                    <li>Apple Podcasts</li>
+                </ul>
+
+
+            </div>
+
+            <div class="lastOfMain">
+
+                <ul>
+                    <li>Copyright © 2024 Apple Inc. All rights reserved.</li>
+                    <li>Privacy Policy | Terms of Use Sales and Refunds | Legal | Site Map</li>
+                    <li>Belarus</li>
+                </ul>
+
+            </div>
+
+        </div>
+
     </main>
 
 
     <script src="../../js/bootstrap.js"></script>
-    <script src="../../js/mainJS.js"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
+    <script src="../../js/slick.min.js"></script>
+    <script src="products.js"></script>
     <script src="iphones.js"></script>
 </body>
 
