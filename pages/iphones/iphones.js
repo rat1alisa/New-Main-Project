@@ -48,6 +48,8 @@ function showProduct(productId){
 
         infoHtml += `<div class="nameModal">${product.name}</div>`;
 
+        infoHtml += `<div class="priceCol">${product.price}</div>`;
+
         product.parametrs.forEach((parametr) => {
             infoHtml += `
             <div class="w-100 p-3 border-bottom d-flex align-items-start">
@@ -56,7 +58,7 @@ function showProduct(productId){
         `;
         });
 
-        infoHtml += `<div class="priceCol">${product.price}</div>`;
+
 
 
 
