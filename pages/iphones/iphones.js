@@ -100,8 +100,8 @@ $(document).ready(function(){
     showCategoryProducts();
 });
 
-$(".ulLi").hover(
-    () => {$("main").css({filter: "blur(2px)"})},
+$(".hovEl").hover(
+    () => {$("main").css({filter: "blur(1px)"})},
     () => {$("main").css({filter: "none"})}
   );
 
