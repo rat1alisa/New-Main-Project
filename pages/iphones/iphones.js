@@ -1,5 +1,5 @@
 
-function showCategoryProducts(){
+function showCategoryProducts() {
     let productsHtml = '';
 
     products.forEach((product) => {
@@ -26,21 +26,40 @@ function showCategoryProducts(){
 }
 
 
+function showAccessories(){
+    let accesoriesHtml = '';
 
-function showProduct(productId){
+    accessories.forEach((accessore) => {
+        accesoriesHtml += `<div class="oneAccessories"> 
+
+        <div class="accessorePhoto"> 
+            <img class="acPic" src="${accessore.photo}" alt="Photo" /> 
+        </div>
+
+        <div class="name">${accessore.name}</div>  
+
+        <div class="price accessorePrice">From $${accessore.price}</div> 
+         
+    </div> `;
+    });
+
+    $("#my-slider").html(accesoriesHtml);
+}
+
+
+
+function showProduct(productId) {
     const product = products.find((phone) => {
         return phone.id === productId;
     });
 
-    if(product){
+    if (product) {
         let sliderHtml = '';
 
         product.images.forEach((image) => {
             sliderHtml += `<div><img class="modalPhoto" src="${image}" alt="${product.name}" /></div>
             `;
         });
-
-
 
         //------
 
@@ -57,9 +76,6 @@ function showProduct(productId){
             </div>
         `;
         });
-
-
-
 
 
         //------
@@ -83,25 +99,32 @@ function showProduct(productId){
         $('#parametrModal').html(infoHtml);
         //$('#modalName').html(nameHtml);
         $('#addColor').html(colorHtml);
-        
-        $('#staticBackdrop').on('shown.bs.modal', function(){
+
+        $('#staticBackdrop').on('shown.bs.modal', function () {
             $('#modal-slider').slick();
         });
         $("#staticBackdrop").on("hidden.bs.modal", function (e) {
             $("#modal-slider").slick("unslick");
-          });
+        });
         $('#staticBackdrop').modal('show');
 
     }
 }
 
 
-$(document).ready(function(){
+
+
+
+$(document).ready(function () {
     showCategoryProducts();
+    showAccessories();
 });
 
 $(".hovEl").hover(
-    () => {$("main").css({filter: "blur(1px)"})},
-    () => {$("main").css({filter: "none"})}
-  );
+    () => { $("main").css({ filter: "blur(1px)" }) },
+    () => { $("main").css({ filter: "none" }) }
+);
+
+
+
 
