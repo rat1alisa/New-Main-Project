@@ -523,3 +523,94 @@ h1{
     background-color: cornflowerblue;
 }*/
 
+
+
+
+/*------------------------Accessories-------------------------*/
+
+.accessories{
+    display: flex;
+    width: 100%;
+    padding-left: 200px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.owl-carousel{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 30px;
+    position: relative;
+}
+
+
+
+.oneAccessories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    background-color: rgb(255, 255, 255);
+
+    width: 280px; 
+    height: 380px; 
+ 
+-webkit-box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2); 
+-moz-box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2); 
+box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2); 
+ 
+ 
+    border-radius: 15px; 
+    gap:10px; 
+ 
+ 
+    transition: 0.3s linear; 
+
+    padding: 20px;
+}
+
+
+.oneAccessories:hover { 
+    transform: scale(1.04);  
+}
+
+
+.accessoriesTitle{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+
+    margin-bottom: 20px;
+}
+
+
+.accessorePrice{
+    font-size: 15px;
+    display: block;
+}
+
+.acPic{ 
+    width: 170px; 
+    height: 210px; 
+    object-fit: cover; 
+    object-position: center; 
+} 
+
+.moreAccessories{
+
+    padding-top: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: .3s ease-in-out;
+}
+
+.moreAccessories:hover{
+    color: #D5B45B;
+    text-decoration: underline;
+}
+
+
