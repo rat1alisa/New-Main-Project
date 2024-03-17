@@ -21,4 +21,7 @@ document.getElementById("ulLiBlur").addEventListener("mouseleave", () => {
   document.getElementById("main1").style.filter = "none";
 });*/
 
-
+$(window).scroll(function(){
+  let h = $("header").height();
+  $(".submenu").css({top: `${h}px`});
+});
