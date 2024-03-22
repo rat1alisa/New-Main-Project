@@ -23,5 +23,7 @@ document.getElementById("ulLiBlur").addEventListener("mouseleave", () => {
 
 $(window).scroll(function(){
   let h = $("header").height();
-  $(".submenu").css({top: `${h}px`});
+  let pos = $("header").position().top;
+  let scroll = $(this).scrollTop();
+  $(".submenu").css({top: `${h + pos - scroll}px`});
 });
