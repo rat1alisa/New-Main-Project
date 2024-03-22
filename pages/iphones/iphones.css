@@ -17,7 +17,7 @@ html, body, main{
  
     max-width: 800px;
 
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     
     /*width: 900px; 
     height: 300px; 
@@ -82,6 +82,7 @@ box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);
 
     cursor: pointer;
 } 
+
  
 .catalog-name{ 
     font-size: 40px; 
@@ -92,9 +93,8 @@ box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);
     margin-top: 30px;
 } 
  
-.button a:hover { 
+.button:hover { 
     text-decoration: underline;  
-    color: rgb(44, 44, 44); 
    } 
  
  
@@ -572,7 +572,7 @@ box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);
 
 
 .oneAccessories:hover { 
-    transform: scale(1.04);  
+    transform: scale(1.06);  
 }
 
 
@@ -611,6 +611,11 @@ box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);
 .moreAccessories:hover{
     color: #D5B45B;
     text-decoration: underline;
+}
+
+.btn-close {
+    color: black;
+    --bs-btn-close-focus-shadow: none;
 }
 
 
