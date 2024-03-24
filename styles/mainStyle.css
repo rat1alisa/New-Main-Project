@@ -39,15 +39,13 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
 
     width: 100%;
   
     color: black;
     font-size: 20px;
 
-    padding-right: 30px;
-    padding-left: 30px;
 }
 
 
@@ -93,10 +91,11 @@ a{
 
 .iconsStyle{
     color: rgb(0, 0, 0);
+    transition: .3s ease-in-out;
   }
 
   .iconsStyle:hover, .iconsStyle:focus{
-    color: rgb(51, 51, 51);
+    color: #D5B45B;
   }
 
 
@@ -210,8 +209,7 @@ a{
     left: 50%;
     z-index: 5;
     opacity: 0;
-    transform: scaleY(0) translateX(-50%);
-
+    
     transform-origin: 0 0;
     transition: transform .5s ease-in-out;
     width: 1300px;
@@ -221,6 +219,8 @@ a{
     justify-content: center;
         
     padding: 20px;
+
+    transform: scaleY(0) translateX(-50%);
   }
   
   .submenu .submenuUl{
@@ -262,8 +262,8 @@ a{
   }
   
   .topmenu > .hovEl:hover .submenu {
-    opacity: 1;
-   transform: scaleY(1) translateX(-50%);
+  opacity: 1;
+  transform: scaleY(1) translateX(-50%);
   }
 
 /*.ulList{
@@ -465,27 +465,54 @@ a{
 
 .slick-slide{
     width: 100%;
-    height: 400px;
+    height: 250px;
 }
 
 .slick-slide img{
     width: 100%;
-    height: 100%;
     object-fit: cover;
     justify-content: center;
 }
 
-.slick-dots li button{
-    line-height: 0;
-    display: block;
-    width: 10px;
-    height: 10px;
-    padding: 1px;
-    cursor: pointer;
-    outline: none;
-    background: black;
+/*.slick-prev {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 45px;
+  height: 45px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 0 none;
+  margin-top: -22.5px;
+  text-align: center;
+  font: 20px / 45px FontAwesome;
+  color: #FFF;
+  z-index: 5;
+  cursor: pointer;
 }
 
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}*/
 
 
 
@@ -549,7 +576,6 @@ a{
     color:rgb(63, 63, 63);
 }
 
-<<<<<<< HEAD
 .photosBlock .slider{
     width: 900px;
     margin: 0 auto;
@@ -569,11 +595,40 @@ a{
 .slick-track{
     display: flex;
     gap: 20px;
-}*/
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ff8e880507dd24f0f542690d7afcbc49f85aaf3b
+}
+
+.input[type = "text"] {
+  display: block;
+  color: rgb(34, 34, 34);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(241,241,241,1) 0%, rgba(226,255,242,1) 0%, rgba(255,255,255,1) 100%);
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.2);
+  border-color: rgba(7, 4, 14, 0);
+  border-radius: 50px;
+  block-size: 20px;
+  margin: 7px auto;
+  padding: 10px 11px;
+  outline: none;
+  text-align: center;
+  width: 200px;
+  transition: 0.5s;
+}
+
+.input[type = "text"]:hover {
+  width: 240px;
+}
+
+.input[type = "text"]:focus {
+  width: 280px;
+}
 
 
->>>>>>> ae907fb7158f56be9e308077ac5a6d90a20ad9e4
+.dop{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}

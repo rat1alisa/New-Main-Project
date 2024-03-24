@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 $(document).ready(function(){
     $('.slider').slick({
         infinite: true,
@@ -6,7 +6,6 @@ $(document).ready(function(){
         slidesToScroll: 3
       });
 });
-=======
 
 
 
@@ -30,14 +29,10 @@ document.getElementById("ulLiBlur").addEventListener("mouseleave", () => {
   document.getElementById("main1").style.filter = "none";
 });*/
 
-<<<<<<< HEAD
-
->>>>>>> ff8e880507dd24f0f542690d7afcbc49f85aaf3b
-=======
 $(window).scroll(function(){
   let h = $("header").height();
   let pos = $("header").position().top;
   let scroll = $(this).scrollTop();
   $(".submenu").css({top: `${h + pos - scroll}px`});
 });
->>>>>>> c0130d9d570d739c614302cf14094bd43308e200
+

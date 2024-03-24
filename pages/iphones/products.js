@@ -22,11 +22,11 @@ const products = [
             },
             {
                 icon: "gg-camera",
-                value: "New 48-megapixel camera"
+                value: "48MP Main camera for super-high-resolution photos and 3x Telephoto camera"
             },
             {
                 icon: "gg-smartphone-chip",
-                value: "The new A17 Bionic processor"
+                value: "A17 Pro chip delivers a massive leap in graphics performance, transforming mobile gaming"
             }
         ],
         colors: [
