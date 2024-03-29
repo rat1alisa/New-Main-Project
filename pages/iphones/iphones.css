@@ -50,7 +50,7 @@ box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);
     width: 230px; 
     height: 230px; 
     object-fit: cover; 
-    object-position: center; 
+    object-position: center
 } 
  
 .name{ 
@@ -594,9 +594,8 @@ box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);
 }
 
 .acPic{ 
-    width: 170px; 
-    height: 210px; 
-    object-fit: cover; 
+    width: 190px; 
+    height: 220px; 
     object-position: center; 
 } 
 
