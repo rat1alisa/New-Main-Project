@@ -49,6 +49,7 @@ function showAccessories(){
 
 
 function showProduct(productId) {
+    $("#modal-slider").slick("unslick");
     const product = products.find((phone) => {
         return phone.id === productId;
     });
