@@ -100,145 +100,86 @@ const products = [
     },
     {
         id: 4,
-        name: "Mac",
-        price: "From $1299",
+        name: "Mac mini",
+        price: "From $599",
         images: [
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-imac-24-202310?wid=1200&hei=1000&fmt=jpeg&qlt=90&.v=1697229623322",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac24-digitalmat-gallery-1-202310?wid=728&hei=666&fmt=png-alpha&.v=1697559004117",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac24-digitalmat-gallery-3-202310?wid=728&hei=666&fmt=png-alpha&.v=1697559004001",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac24-digitalmat-gallery-4-202310?wid=728&hei=666&fmt=png-alpha&.v=1697559005165"
+            "https://cdn1.ozone.ru/s3/multimedia-0/6452428092.jpg",
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-mini-digitalmat-gallery-3-202301?wid=728&hei=666&fmt=png-alpha&.v=1670038165453",
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-mini-digitalmat-gallery-5-202301_GEO_US?wid=728&hei=666&fmt=png-alpha&.v=1670916363771",
         ],
         parametrs: [
             {
-                icon: "gg-shape-square",
-                value: "A titanium bezel"
+                icon: "gg-pen",
+                value: "Customize your setup using Mac mini’s two or four Thunderbolt 4 ports, two USB-A ports, HDMI, and Gigabit Ethernet"
             },
             {
-                icon: "gg-arrow-long-right-r",
-                value: "USB-C port"
-            },
-            {
-                icon: "gg-camera",
-                value: "New 48-megapixel camera"
+                icon: "gg-arrows-exchange-alt",
+                value: "Complete your system with Studio Display and Magic accessories"
             },
             {
                 icon: "gg-smartphone-chip",
-                value: "The new A17 Bionic processor"
+                value: "Do more and do it faster with the next-generation M2 or M2 Pro chip"
             }
         ],
         colors: [
-            "#a7a6a3",
-            "#cfcfcd",
-            "#415C71",
-            "#59595c"
+            "#8C8C8C",
         ],
         
     },
     {
         id: 5,
-        name: "Mac",
-        price: "From $1299",
+        name: "Studio Display",
+        price: "From $1599",
         images: [
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-imac-24-202310?wid=1200&hei=1000&fmt=jpeg&qlt=90&.v=1697229623322",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac24-digitalmat-gallery-1-202310?wid=728&hei=666&fmt=png-alpha&.v=1697559004117",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac24-digitalmat-gallery-3-202310?wid=728&hei=666&fmt=png-alpha&.v=1697559004001",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac24-digitalmat-gallery-4-202310?wid=728&hei=666&fmt=png-alpha&.v=1697559005165"
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-studio-display-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645558306366",
+            "https://content2.onliner.by/catalog/device/large/16486047c4ca418786763a242aeac585.jpeg",
+            "https://m.media-amazon.com/images/I/51afAQocEQL._AC_UF894,1000_QL80_.jpg",
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/studio-display-digitalmat-gallery-3-202203?wid=728&hei=666&fmt=png-alpha&.v=1645207691982"
         ],
         parametrs: [
             {
-                icon: "gg-shape-square",
-                value: "A titanium bezel"
+                icon: "gg-arrows-expand-right",
+                value: "27-inch 5K Retina display draws you in with 14.7 million pixels and one billion colors"
             },
             {
-                icon: "gg-arrow-long-right-r",
-                value: "USB-C port"
+                icon: "gg-controller",
+                value: "12MP Ultra Wide camera with Center Stage — powered by Apple silicon — allows for more engaging video calls"
             },
             {
-                icon: "gg-camera",
-                value: "New 48-megapixel camera"
+                icon: "gg-arrows-exchange-alt",
+                value: "Pairs perfectly with any Mac, including the all-new Mac Studio. Add new matching Magic accessories to complete your studio."
             },
-            {
-                icon: "gg-smartphone-chip",
-                value: "The new A17 Bionic processor"
-            }
         ],
         colors: [
-            "#a7a6a3",
-            "#cfcfcd",
-            "#415C71",
-            "#59595c"
+            "#8C8C8C",
         ],
         
     },
     {
         id: 6,
-        name: "Mac",
+        name: "Mac Pro",
         price: "From $1299",
         images: [
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-imac-24-202310?wid=1200&hei=1000&fmt=jpeg&qlt=90&.v=1697229623322",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac24-digitalmat-gallery-1-202310?wid=728&hei=666&fmt=png-alpha&.v=1697559004117",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac24-digitalmat-gallery-3-202310?wid=728&hei=666&fmt=png-alpha&.v=1697559004001",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac24-digitalmat-gallery-4-202310?wid=728&hei=666&fmt=png-alpha&.v=1697559005165"
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-pro-digitalmat-gallery-1-202306?wid=728&hei=666&fmt=jpeg&qlt=90&.v=1683842315753",
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-pro-digitalmat-gallery-2-202306?wid=728&hei=666&fmt=png-alpha&.v=1683842315746",
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-pro-digitalmat-gallery-5-202306?wid=728&hei=666&fmt=png-alpha&.v=1683842315754",
         ],
         parametrs: [
             {
+                icon: "gg-smartphone-chip",
+                value: "Supercharged by M2 Ultra, our most powerful and capable chip"
+            },
+            {
                 icon: "gg-shape-square",
-                value: "A titanium bezel"
+                value: "Runs cool and quiet, even under intensive workloads"
             },
             {
                 icon: "gg-arrow-long-right-r",
-                value: "USB-C port"
+                value: "Comes with Magic accessories. Complete your setup with Pro Display XDR."
             },
-            {
-                icon: "gg-camera",
-                value: "New 48-megapixel camera"
-            },
-            {
-                icon: "gg-smartphone-chip",
-                value: "The new A17 Bionic processor"
-            }
         ],
         colors: [
-            "#a7a6a3",
-            "#cfcfcd",
-            "#415C71",
-            "#59595c"
-        ],
-        
-    },
-    {
-        id: 7,
-        name: "Mac",
-        price: "From $1299",
-        images: [
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-imac-24-202310?wid=1200&hei=1000&fmt=jpeg&qlt=90&.v=1697229623322",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac24-digitalmat-gallery-1-202310?wid=728&hei=666&fmt=png-alpha&.v=1697559004117",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac24-digitalmat-gallery-3-202310?wid=728&hei=666&fmt=png-alpha&.v=1697559004001",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac24-digitalmat-gallery-4-202310?wid=728&hei=666&fmt=png-alpha&.v=1697559005165"
-        ],
-        parametrs: [
-            {
-                icon: "gg-shape-square",
-                value: "A titanium bezel"
-            },
-            {
-                icon: "gg-arrow-long-right-r",
-                value: "USB-C port"
-            },
-            {
-                icon: "gg-camera",
-                value: "New 48-megapixel camera"
-            },
-            {
-                icon: "gg-smartphone-chip",
-                value: "The new A17 Bionic processor"
-            }
-        ],
-        colors: [
-            "#a7a6a3",
-            "#cfcfcd",
-            "#415C71",
-            "#59595c"
+            "#8C8C8C",
         ],
         
     },
