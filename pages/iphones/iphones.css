@@ -102,6 +102,12 @@ box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);
     transform: scale(1.06);  
 }
 
+.one:active { 
+    transform: scale(1.06); 
+    box-shadow: 0 0 0 4px hsl(155, 30%, 80%);
+}
+
+
 .col-md-4{
     padding-right: 100px;
 }
@@ -568,13 +574,18 @@ box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);
     transition: 0.3s linear; 
 
     padding: 20px;
+
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-
-.oneAccessories:hover { 
-    transform: scale(1.06);  
+.oneAccessories:hover{
+    transform: scale(1.06);
 }
 
+.oneAccessories:active { 
+    transform: scale(1.06); 
+    box-shadow: 0 0 0 4px hsl(155, 30%, 80%);
+}
 
 .accessoriesTitle{
     display: flex;
@@ -597,10 +608,10 @@ box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);
     width: 190px; 
     height: 220px; 
     object-position: center; 
+    object-fit: cover;
 } 
 
 .moreAccessories{
-    padding-top: 30px;
     color: rgb(0, 0, 0);
     font-size: 20px;
     transition: .3s ease-in-out;
@@ -663,3 +674,98 @@ box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);
    } 
 
 
+
+/*------------------------Help for choose-------------------------*/
+
+
+
+.chooseIPhone{    
+    display: flex;
+    align-items: start;    
+    justify-content: center;    
+    flex-direction: column;    
+    gap: 50px;
+    font-size: 30px;    
+    font-weight: 400;    
+    color: black;
+    width: 100%;    
+    padding-left: 200px;
+}
+
+.helpIPhone{  
+    width: 560px;  
+    height: 300px;  
+    display: flex;    
+    align-items: start;  
+    justify-content: center;  
+    flex-direction: column;   
+    padding-right: 20px;  
+    background: white;  /*transition: width 0.5s;*/    
+    position: relative;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  /*background-image: url("https://www.ixbt.com/img/n1/news/2023/9/0/iPhone-15-Pro-Lineup-Feature_large.jpg");   background-repeat: no-repeat; background-size: cover;*/
+    border-radius: 15px;  
+  -webkit-box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);    -moz-box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);  
+}
+
+
+
+#pHelp{  
+    color: black;  
+    z-index: 700;
+    margin-left: 40px;
+
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+.i{  
+    width: 450px;  
+    height: 180px;
+    /*position: absolute;  left: 0;  bottom: 0;
+    z-index: 0;*/}
+
+.helpIPhone:hover {  
+    transform: scale(1.06);
+}
+
+
+svg {
+  position: absolute;
+  width: 18px;
+  z-index: 9;
+  transition: width 1s ease-in-out;
+}
+
+.arr-2 {
+  left: -25%;
+  opacity: 0;
+}
+
+.helpIPhone:hover .arr-2 {
+  left: 10px;
+  opacity: 1;
+}
+
+.helpIPhone:active {
+  scale: 0.95;
+  box-shadow: 0 0 0 4px hsl(155, 30%, 80%);
+}
+
+.pageName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#my-slider{
+    padding-bottom: 50px;
+}
