@@ -36,3 +36,10 @@ $(window).scroll(function(){
   $(".submenu").css({top: `${h + pos - scroll}px`});
 });
 
+
+function buyProduct(productId, script){
+  window.sessionStorage.setItem("productId", productId);
+  window.sessionStorage.setItem("script", script);
+
+  window.location.href="file:///D:/alice/Main%20Project/pages/myOrders/order.html";
+}
