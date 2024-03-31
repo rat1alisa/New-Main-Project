@@ -101,6 +101,8 @@ function showProduct(productId) {
         //$('#modalName').html(nameHtml);
         $('#addColor').html(colorHtml);
 
+        $('#modal-footer').html(`<button type="button" class="btn" onclick="buyProduct(${product.id}, 'iphones/products.js')">Buy</button>`);
+
         $('#staticBackdrop').on('shown.bs.modal', function () {
             $('#modal-slider').slick();
         });
