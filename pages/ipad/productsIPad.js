@@ -66,7 +66,7 @@ const products = [
     },
     {
         id: 3,
-        name: "iPad mini",
+        name: "iPad Mini",
         price: "From $999",
         images: [
             "https://futureit.om/media/catalog/product/cache/1b86af179eec0db7d828498c04f28830/u/n/untitled_500_500_px_-_2023-01-05t101205.237.jpg",
@@ -124,63 +124,6 @@ const products = [
             "#EAD81F",
             "#E94E74",
             "#73ADC8",
-        ],
-        
-    },
-    {
-        id: 5,
-        name: "Studio Display",
-        price: "From $1599",
-        images: [
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-studio-display-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645558306366",
-            "https://content2.onliner.by/catalog/device/large/16486047c4ca418786763a242aeac585.jpeg",
-            "https://m.media-amazon.com/images/I/51afAQocEQL._AC_UF894,1000_QL80_.jpg",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/studio-display-digitalmat-gallery-3-202203?wid=728&hei=666&fmt=png-alpha&.v=1645207691982"
-        ],
-        parametrs: [
-            {
-                icon: "gg-arrows-expand-right",
-                value: "27-inch 5K Retina display draws you in with 14.7 million pixels and one billion colors"
-            },
-            {
-                icon: "gg-controller",
-                value: "12MP Ultra Wide camera with Center Stage — powered by Apple silicon — allows for more engaging video calls"
-            },
-            {
-                icon: "gg-arrows-exchange-alt",
-                value: "Pairs perfectly with any Mac, including the all-new Mac Studio. Add new matching Magic accessories to complete your studio."
-            },
-        ],
-        colors: [
-            "#8C8C8C",
-        ],
-        
-    },
-    {
-        id: 6,
-        name: "Mac Pro",
-        price: "From $1299",
-        images: [
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-pro-digitalmat-gallery-1-202306?wid=728&hei=666&fmt=jpeg&qlt=90&.v=1683842315753",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-pro-digitalmat-gallery-2-202306?wid=728&hei=666&fmt=png-alpha&.v=1683842315746",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-pro-digitalmat-gallery-5-202306?wid=728&hei=666&fmt=png-alpha&.v=1683842315754",
-        ],
-        parametrs: [
-            {
-                icon: "gg-smartphone-chip",
-                value: "Supercharged by M2 Ultra, our most powerful and capable chip"
-            },
-            {
-                icon: "gg-shape-square",
-                value: "Runs cool and quiet, even under intensive workloads"
-            },
-            {
-                icon: "gg-arrow-long-right-r",
-                value: "Comes with Magic accessories. Complete your setup with Pro Display XDR."
-            },
-        ],
-        colors: [
-            "#8C8C8C",
         ],
         
     },
