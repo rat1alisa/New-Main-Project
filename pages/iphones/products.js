@@ -14,11 +14,11 @@ const products = [
         parametrs: [
             {
                 icon: "gg-shape-square",
-                value: "A titanium bezel"
+                value: "Strong and light titanium design with Action button — a fast track to your favorite feature"
             },
             {
                 icon: "gg-arrow-long-right-r",
-                value: "USB-C port"
+                value: "USB-C connector with USB 3 for up to 20x faster transfer speeds footnote ² and new pro workflows"
             },
             {
                 icon: "gg-camera",
@@ -50,19 +50,19 @@ const products = [
         parametrs: [
             {
                 icon: "gg-shape-square",
-                value: "A titanium bezel"
+                value: "Strong and light titanium design with Action button — a fast track to your favorite feature"
             },
             {
                 icon: "gg-arrow-long-right-r",
-                value: "USB-C port"
+                value: "USB-C connector with USB 3 for up to 20x faster transfer speeds footnote ² and new pro workflows"
             },
             {
                 icon: "gg-camera",
-                value: "New 48-megapixel camera"
+                value: "48MP Main camera for super-high-resolution photos and 3x Telephoto camera"
             },
             {
                 icon: "gg-smartphone-chip",
-                value: "The new A1 Bionic processor"
+                value: "A17 Pro chip delivers a massive leap in graphics performance, transforming mobile gaming"
             }
         ],
         colors: [
@@ -78,34 +78,34 @@ const products = [
         price: "From $899",
         images: [
             "https://mobilworld.by/upload/iblock/bda/bda42dff2feebdcadb7dd7ee5eac6ddd.png",
-            "https://storage.googleapis.com/stateless-creative-it-ie/2023/11/b49c3de0-finish_iphone__bvnqblbns6r6_large_2x.jpg",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15-digitalmat-gallery-2-202309?wid=364&hei=333&fmt=png-alpha&.v=1693011169058",
-            "https://mobilecare.sk/wp-content/uploads/2023/09/apple-iphone-15-plus-512-gb-modra-mu1p3sx-a-466631.jpg"
+            "https://mobilecare.sk/wp-content/uploads/2023/09/apple-iphone-15-plus-512-gb-modra-mu1p3sx-a-466631.jpg",
+            "https://storage.googleapis.com/stateless-creative-it-ie/2023/11/b49c3de0-finish_iphone__bvnqblbns6r6_large_2x.jpg",
         ],
         parametrs: [
             {
                 icon: "gg-arrows-expand-right",
-                value: "6.1-inch durable color-infused glass"
+                value: "6.1-inch durable color-infused glass and aluminum design footnote ◊ with Ceramic Shield front"
             },
             {
-                icon: "gg-arrow-long-right-r",
-                value: "USB-C port"
+                icon: "gg-toolbar-top",
+                value: "Dynamic Island bubbles up alerts and Live Activities — so you don’t miss them while you’re doing something else"
             },
             {
                 icon: "gg-camera",
-                value: "New 48-megapixel camera"
+                value: "48MP Main camera with 2x Telephoto captures breathtaking detail up close or far away"
             },
             {
                 icon: "gg-smartphone-chip",
-                value: "The A16 Bionic processor"
+                value: "A16 Bionic powers computational photography and smooth gaming performance with great efficiency for all-day battery life"
             }
         ],
         colors: [
+            "#5a5a5a",
             "#DBFFFE",
-            "#FEF6FD",
-            "#FFF9DB",
             "#DBFFDF",
-            "#5a5a5a"
+            "#FFF9DB",
+            "#FEF6FD",
         ],
     },
     {
@@ -114,22 +114,22 @@ const products = [
         price: "From $799",
         images: [
             "https://manyphone.ru/upload/iblock/aa3/zn6myzavb1av890ryplr4zhw6mao6ccm.jpg",
-            "https://focus.independent.ie/thumbor/feKL5Yaw-o5rW_P2sXP09ehaxVs=/0x24:2193x1486/960x640/prod-mh-ireland/0a806fd0-a9fb-11ed-bc1e-0210609a3fe2.jpeg",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14plus-digitalmat-gallery-2-202209?wid=364&hei=333&fmt=png-alpha&.v=1662055813701",
-            "https://media.studio7thailand.com/93310/iPhone_14_Plus_1-square_medium.jpg"
+            "https://media.studio7thailand.com/93310/iPhone_14_Plus_1-square_medium.jpg",
+            "https://focus.independent.ie/thumbor/feKL5Yaw-o5rW_P2sXP09ehaxVs=/0x24:2193x1486/960x640/prod-mh-ireland/0a806fd0-a9fb-11ed-bc1e-0210609a3fe2.jpeg",
         ],
         parametrs: [
             {
                 icon: "gg-shape-square",
-                value: "A titanium bezel"
+                value: "6.7-inch durable design footnote 1 with Ceramic Shield and water and dust resistance"
             },
             {
                 icon: "gg-battery-empty",
-                value: "All-day battery life with up to 20 hours of video playback"
+                value: "All-day battery life with up to 26 hours of video playback²"
             },
             {
                 icon: "gg-camera",
-                value: "A Pro-level Main camera"
+                value: "A Pro-level Main camera and advanced image processing for sensational shots in all kinds of light"
             },
             {
                 icon: "gg-smartphone-chip",
@@ -152,12 +152,12 @@ const products = [
             "https://mobillife.by/images/virtuemart/product/30059037b.jpg",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1677662648569",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122"
+            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13-digitalmat-gallery-4-202203?wid=728&hei=666&fmt=jpeg&qlt=90&.v=1644988764203"
         ],
         parametrs: [
             {
                 icon: "gg-shape-square",
-                value: "Ceramic Shield"
+                value: "Ceramic Shield, and water and dust resistance footnote²"
             },
             {
                 icon: "gg-dice-5",
@@ -165,7 +165,7 @@ const products = [
             },
             {
                 icon: "gg-camera",
-                value: "Dual-camera system"
+                value: "Dual-camera system for incredible low-light photos and videos"
             },
             {
                 icon: "gg-smartphone-chip",
@@ -193,11 +193,11 @@ const products = [
         parametrs: [
             {
                 icon: "gg-arrows-expand-right",
-                value: "4.7-inch Retina HD display"
+                value: "4.7-inch Retina HD display footnote that’s bright, colorful, and sharp"
             },
             {
-                icon: "gg-touchpad",
-                value: "Home button with Touch ID"
+                icon: "gg-live-photo",
+                value: "Home button with Touch ID — securely unlock, sign in to apps, and use Apple Pay"
             },
             {
                 icon: "gg-camera",
@@ -215,3 +215,6 @@ const products = [
         ],
     }
 ];
+
+
+/* gg-touchpad*/
