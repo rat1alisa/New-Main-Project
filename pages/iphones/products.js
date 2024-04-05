@@ -7,10 +7,11 @@ const products = [
         price: "From $1199",
         images: [
             "https://mobilworld.by/upload/iblock/9c5/9c566a95b3fd15454e27cd7a21c8ca02.png",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15promax-digitalmat-gallery-1-202309_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1693346851426",
+            "../../images/iphones15ProMax1.png",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15promax-digitalmat-gallery-2-202309?wid=364&hei=333&fmt=png-alpha&.v=1693081545196",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15promax-digitalmat-gallery-4-202309?wid=364&hei=333&fmt=png-alpha&.v=1693081545196"
         ],
+        orderPic: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-model-unselect-gallery-1-202309?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1710798516323",
         parametrs: [
             {
                 icon: "gg-shape-square",
@@ -43,10 +44,11 @@ const products = [
         price: "From $999",
         images: [
             "https://my-store.by/wp-content/uploads/2023/09/Group-80.png",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15pro-digitalmat-gallery-1-202309_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1693346851451",
+            "../../images/iphones15ProMax1.png",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15pro-digitalmat-gallery-2-202309?wid=364&hei=333&fmt=png-alpha&.v=1693081541434",
             "https://mobilworld.by/upload/iblock/c7e/c7efdccd3f82b1c92d84181ddede5572.png"
         ],
+        orderPic: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-model-unselect-gallery-1-202309?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1710798516323",
         parametrs: [
             {
                 icon: "gg-shape-square",
@@ -78,10 +80,11 @@ const products = [
         price: "From $899",
         images: [
             "https://mobilworld.by/upload/iblock/bda/bda42dff2feebdcadb7dd7ee5eac6ddd.png",
+            "https://storage.googleapis.com/stateless-creative-it-ie/2023/11/b49c3de0-finish_iphone__bvnqblbns6r6_large_2x.jpg",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone15-digitalmat-gallery-2-202309?wid=364&hei=333&fmt=png-alpha&.v=1693011169058",
             "https://mobilecare.sk/wp-content/uploads/2023/09/apple-iphone-15-plus-512-gb-modra-mu1p3sx-a-466631.jpg",
-            "https://storage.googleapis.com/stateless-creative-it-ie/2023/11/b49c3de0-finish_iphone__bvnqblbns6r6_large_2x.jpg",
         ],
+        orderPic: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-model-unselect-gallery-1-202309?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692810665888",
         parametrs: [
             {
                 icon: "gg-arrows-expand-right",
@@ -114,10 +117,12 @@ const products = [
         price: "From $799",
         images: [
             "https://manyphone.ru/upload/iblock/aa3/zn6myzavb1av890ryplr4zhw6mao6ccm.jpg",
+            "https://focus.independent.ie/thumbor/feKL5Yaw-o5rW_P2sXP09ehaxVs=/0x24:2193x1486/960x640/prod-mh-ireland/0a806fd0-a9fb-11ed-bc1e-0210609a3fe2.jpeg",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14plus-digitalmat-gallery-2-202209?wid=364&hei=333&fmt=png-alpha&.v=1662055813701",
             "https://media.studio7thailand.com/93310/iPhone_14_Plus_1-square_medium.jpg",
-            "https://focus.independent.ie/thumbor/feKL5Yaw-o5rW_P2sXP09ehaxVs=/0x24:2193x1486/960x640/prod-mh-ireland/0a806fd0-a9fb-11ed-bc1e-0210609a3fe2.jpeg",
+            
         ],
+        orderPic: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-model-unselect-gallery-1-202209?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1660689596976",
         parametrs: [
             {
                 icon: "gg-shape-square",
@@ -150,10 +155,11 @@ const products = [
         price: "From $599",
         images: [
             "https://mobillife.by/images/virtuemart/product/30059037b.jpg",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13-digitalmat-gallery-1-202203_GEO_US?wid=364&hei=333&fmt=png-alpha&.v=1677662648569",
+            "../../images/iphones13.png",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988764167",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13-digitalmat-gallery-4-202203?wid=728&hei=666&fmt=jpeg&qlt=90&.v=1644988764203"
         ],
+        orderPic: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-finish-unselect-gallery-1-202207_GEO_US?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1654894184756",
         parametrs: [
             {
                 icon: "gg-shape-square",
@@ -186,10 +192,11 @@ const products = [
         price: "From $429",
         images: [
             "https://app-minsk.by/files/items/4440/icon_480x390.png",
-            "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphonese-digitalmat-gallery-1-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579596",
+            "https://images.macrumors.com/t/iKQSY0P5NuLjNXEQBXXj7gmRowM=/1600x1200/smart/article-new/2022/03/iPhone-SE-3.jpg",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphonese-digitalmat-gallery-2-202203?wid=364&hei=333&fmt=jpeg&qlt=95&.v=1646075827246",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphonese-digitalmat-gallery-4-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579760"
         ],
+        orderPic: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-se-finish-unselect-gallery-1-202207?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1655249921393",
         parametrs: [
             {
                 icon: "gg-arrows-expand-right",
