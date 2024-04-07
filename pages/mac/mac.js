@@ -1,4 +1,3 @@
-
 function showCategoryProducts() {
     let productsHtml = '';
 
@@ -101,6 +100,8 @@ function showProduct(productId) {
         //$('#modalName').html(nameHtml);
         $('#addColor').html(colorHtml);
 
+        $('.modal-footer').html(`<button type="button" class="btn" onclick="buyProduct(${product.id}, 'mac/productsMac.js')">Buy</button>`);
+
         $('#staticBackdrop').on('shown.bs.modal', function () {
             $('#modal-slider').slick();
         });
@@ -113,9 +114,6 @@ function showProduct(productId) {
 }
 
 
-
-
-
 $(document).ready(function () {
     showCategoryProducts();
     showAccessories();
@@ -125,7 +123,3 @@ $(".hovEl").hover(
     () => { $("main").css({ filter: "blur(1px)" }) },
     () => { $("main").css({ filter: "none" }) }
 );
-
-
-
-
