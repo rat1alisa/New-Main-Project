@@ -697,7 +697,7 @@ box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);
 }
 
 .helpIPhone{  
-    width: 560px;  
+    width: 500px;  
     height: 300px;  
     display: flex;    
     align-items: start;  
@@ -718,7 +718,7 @@ box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);
 #pHelp{  
     color: black;  
     z-index: 700;
-    margin-left: 40px;
+    margin-left: 20px;
 
     font-size: 30px;
     font-weight: 600;
@@ -727,10 +727,13 @@ box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);
 
 
 .i{  
-    width: 450px;  
+    width: 100%;  
     height: 180px;
     /*position: absolute;  left: 0;  bottom: 0;
-    z-index: 0;*/}
+    z-index: 0;*/
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .helpIPhone:hover {  
     transform: scale(1.06);
@@ -758,6 +761,99 @@ svg {
   scale: 0.95;
   box-shadow: 0 0 0 4px hsl(155, 30%, 80%);
 }
+
+.tradeIPhone{  
+    width: 480px;  
+    height: 300px;  
+    display: flex;    
+    align-items: start;  
+    justify-content: center;  
+    flex-direction: column;   
+    padding-right: 10px;  
+  padding-left: 10px;
+    background: white;  /*transition: width 0.5s;*/    
+    position: relative;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  /*background-image: url("https://www.ixbt.com/img/n1/news/2023/9/0/iPhone-15-Pro-Lineup-Feature_large.jpg");   background-repeat: no-repeat; background-size: cover;*/
+    border-radius: 15px;  
+  -webkit-box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);    -moz-box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);  
+}
+
+.helpBox{
+    display: flex;
+    align-items: start;  
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.specialist{
+    width: 300px;  
+    height: 300px;  
+    display: flex;    
+    align-items: start;  
+    justify-content: center;  
+    flex-direction: column;   
+    padding-right: 20px;  
+  padding-left: 20px;
+    background: white;  /*transition: width 0.5s;*/    
+    position: relative;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  /*background-image: url("https://www.ixbt.com/img/n1/news/2023/9/0/iPhone-15-Pro-Lineup-Feature_large.jpg");   background-repeat: no-repeat; background-size: cover;*/
+    border-radius: 15px;  
+  -webkit-box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);    -moz-box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 2px 29px -6px rgba(0, 0, 0, 0.2);  
+}
+
+
+#specialictNameInfo{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#specialictName{
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.specialist:hover .arr-2 {
+    left: 10px;
+    opacity: 1;
+  }
+  
+.specialist:active {
+    scale: 0.95;
+    box-shadow: 0 0 0 4px hsl(155, 30%, 80%);
+  }
+
+.specialist:hover {  
+    transform: scale(1.06);
+}
+
+
+
+
+
+.tradeIPhone:hover {  
+    transform: scale(1.06);
+}
+
+
+.tradeIPhone:hover .arr-2 {
+  left: 10px;
+  opacity: 1;
+}
+
+.tradeIPhone:active {
+  scale: 0.95;
+  box-shadow: 0 0 0 4px hsl(155, 30%, 80%);
+}
+
+
+
 
 .pageName{
     display: flex;
