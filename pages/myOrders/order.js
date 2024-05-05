@@ -167,6 +167,8 @@ function showProduct(product){
         </div>`;
     });
 
+
+    orderHtml += ``;
     orderHtml += `</div>
     </div>`;
 
