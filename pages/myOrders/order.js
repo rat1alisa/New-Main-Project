@@ -112,6 +112,7 @@ function showProduct(product){
     if (product) {
         let orderHtml = '';
 
+        let orderTextHtml = '';
         orderHtml += `<div class="accessoriesTitle">
         <b id="bTag">Buy ${product.name}</b>
         <p id="pTag">${product.price}</p>
