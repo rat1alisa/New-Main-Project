@@ -201,7 +201,7 @@ const products = [
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac24-digitalmat-gallery-4-202310?wid=728&hei=666&fmt=png-alpha&.v=1697559005165",
 
         ],
-        orderPic: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac-24-og-202310?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1697142273063",
+        orderPic: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac-24-og-202310?wid=600&hei=315&fmt=jpeg&qlt=95&.v=1697142273063",
         parametrs: [
             {
                 icon: "gg-smartphone-chip",
@@ -239,7 +239,7 @@ const products = [
             "https://syktyvkar.the-istore.ru/upload/iblock/cea/ceaea774d86b9d6f81abe5915c2b8635/c8a59f1df2e4ed4d1593f8dd2ddd39f8.jpg",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-14-digitalmat-gallery-6-202310?wid=728&hei=666&fmt=png-alpha&.v=1696971524925"
         ],
-        orderPic: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-finish-unselect-gallery-1-202207?wid=5120&hei=2880&fmt=p-jpg&qlt=95&.v=1654902977555",
+        orderPic: "https://www.apple.com/v/macbook-pro-14-and-16/a/images/meta/macbook-pro-14-and-16_overview__fz0lron5xyuu_og.png",
         parametrs: [
             {
                 icon: "gg-smartphone-chip",
@@ -275,7 +275,7 @@ const products = [
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac24-digitalmat-gallery-3-202310?wid=728&hei=666&fmt=png-alpha&.v=1697559004001",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac24-digitalmat-gallery-4-202310?wid=728&hei=666&fmt=png-alpha&.v=1697559005165"
         ],
-        orderPic: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-finish-unselect-gallery-1-202207?wid=5120&hei=2880&fmt=p-jpg&qlt=95&.v=1654902977555",
+        orderPic: "D:/Alice/My New Project/New-Main-Project/images/MacBook-Air-13-1.jpg",
         parametrs: [
             {
                 icon: "gg-smartphone-chip",
@@ -311,7 +311,7 @@ const products = [
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-mini-digitalmat-gallery-3-202301?wid=728&hei=666&fmt=png-alpha&.v=1670038165453",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-mini-digitalmat-gallery-5-202301_GEO_US?wid=728&hei=666&fmt=png-alpha&.v=1670916363771",
         ],
-        orderPic: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-finish-unselect-gallery-1-202207?wid=5120&hei=2880&fmt=p-jpg&qlt=95&.v=1654902977555",
+        orderPic: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-mini-og-image-202301?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1670361046478",
         parametrs: [
             {
                 icon: "gg-pen",
@@ -345,7 +345,7 @@ const products = [
             "https://m.media-amazon.com/images/I/51afAQocEQL._AC_UF894,1000_QL80_.jpg",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/studio-display-digitalmat-gallery-3-202203?wid=728&hei=666&fmt=png-alpha&.v=1645207691982"
         ],
-        orderPic: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/studio-display-og-202203?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1645125507093",
+        orderPic: "https://www.apple.com/newsroom/images/product/mac/standard/Apple-Mac-Studio-Studio-Display-Photoshop-220308_big.jpg.slideshow-large_2x.jpg",
         parametrs: [
             {
                 icon: "gg-arrows-expand-right",
@@ -378,7 +378,7 @@ const products = [
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-pro-digitalmat-gallery-2-202306?wid=728&hei=666&fmt=png-alpha&.v=1683842315746",
             "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-pro-digitalmat-gallery-5-202306?wid=728&hei=666&fmt=png-alpha&.v=1683842315754",
         ],
-        orderPic: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-finish-unselect-gallery-1-202207?wid=5120&hei=2880&fmt=p-jpg&qlt=95&.v=1654902977555",
+        orderPic: "https://www.macstoreuk.com/wp-content/uploads/2020/07/Mac-Pro.jpg",
         parametrs: [
             {
                 icon: "gg-smartphone-chip",
