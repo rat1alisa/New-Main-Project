@@ -42,5 +42,13 @@ function buyProduct(productId, script){
   window.sessionStorage.setItem("script", script);
 
   //window.location.href="file:///D:/alice/Main%20Project/pages/myOrders/order.html";
+  //file:///D:/Alice/My New Project/New-Main-Project/pages/myOrders/order.html
   window.location.href="file:///D:/Alice/My New Project/New-Main-Project/pages/myOrders/order.html";
+}
+
+
+function reload_confirm(){
+	if (confirm('The order has been placed. Сonfirm order.')) {
+		window.location.reload();
+	}
 }
