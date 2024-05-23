@@ -455,6 +455,7 @@ a{
     align-items: center;
 
     width: 100%;
+    gap: 20px;
 }
 
 
@@ -786,8 +787,9 @@ a{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 20px;
+  padding-top:0;
   margin-bottom: 20px;
+  
 }
 
 .airPodsSecondTextButton b{
@@ -846,3 +848,552 @@ a{
   position: absolute;  left: 1rem;
   fill: #777;  width: 1rem;
   height: 1rem;}
+
+
+
+
+
+
+
+  .iPadAirAdd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    width: 100%;
+    padding: 50px;
+    
+    background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(241,241,241,1) 0%, rgba(141,210,255,1) 0%, rgba(255,255,255,1) 100%);
+  
+  margin-bottom:20px;
+  }
+  
+  #iPadAirAddBlockTextImgAir{
+    width: 95px;
+  }
+  
+  #iPadAirAddBlockTexts{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+  }
+  
+  #iPadAirAddBlockTexts p{
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 65px;
+      font-weight: 500;
+      color: black;
+    
+    margin-left: 10px;
+  }
+  
+  .iPadAirAddBlockText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    font-size: 29px;
+    
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  
+  .iPadAirAddBlockText p{
+    margin: 0;
+  }
+  
+  .iPadAirAddBlockButtonBuy {
+   appearance: none;
+   background-color: transparent;
+   border: 0.125em solid #1A1A1A;
+   border-radius: 30px;
+   box-sizing: border-box;
+   color: #3B3B3B;
+   cursor: pointer;
+   display: inline-block;
+   font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+   font-size: 18px;
+   font-weight: 600;
+   line-height: normal;
+   margin: 0;
+   min-height: 40px;
+   min-width: 0;
+   outline: none;
+   padding: 5px 20px;
+   text-align: center;
+   text-decoration: none;
+   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   will-change: transform;
+  }
+  
+  .iPadAirAddBlockButtonBuy:disabled {
+   pointer-events: none;
+  }
+  
+  .iPadAirAddBlockButtonBuy:hover {
+   color: #fff;
+   background-color: #1A1A1A;
+   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+   transform: translateY(-2px);
+  }
+  
+  .iPadAirAddBlockButtonBuy:active {
+   box-shadow: none;
+   transform: translateY(0);
+  }
+  
+  .iPadAirAddBlockButton button:first-child {
+    margin-right: 25px;
+  }
+  
+  
+  .iPadAirAddBlock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    gap: 20px;
+  }
+  
+  #iPadAirAddImg{
+    width: 400px;
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+  .iPhone15PlusAd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    width: 100%;
+    padding: 50px;
+    
+    background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(241,241,241,1) 0%, rgba(214,251,195,1) 0%, rgba(255,255,255,1) 100%);
+  margin-bottom:20px;
+  }
+  
+  .iPhone15PlusAdText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    gap: 5px;
+  }
+  
+  .iPhone15PlusAdText #f{
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 40px;
+      font-weight: 600;
+      color: black;
+    margin:0;
+  }
+  
+  .iPhone15PlusAdText #s{
+      font-size: 26px;
+      font-weight: 600;
+      color: #2E8B57;
+    margin: 0;
+    margin-top:10px;
+  }
+  
+  .iPhone15PlusAdText a{
+    font-size: 20px;
+  }
+  
+  .iPhone15PlusAdText a:hover {  
+    text-decoration: underline; 
+    font-weight: 500;
+    cursor: pointer;
+     }
+  
+  .iPhone15PlusAdImg #img{
+    width: 370px;
+  }
+
+
+
+  .appleWatchAd{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+    margin-bottom:20px;
+  }
+  
+  .appleWatchAdText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    gap: 15px;
+    padding: 50px;
+  }
+  
+  .appleWatchAdText #appleWatchAdTextImgId1{
+    width: 300px;
+  }
+
+  
+  .appleWatchAdText #appleWatchAdTextImgId2{
+    width: 200px;
+  }
+  
+  .appleWatchAdText p{
+      font-size: 20px;
+      font-weight: 400;
+      color: black;
+    margin: 0;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  
+  .appleWatchAdText a{
+    font-size: 20px;
+  }
+  
+  .appleWatchAdText a:hover {  
+    text-decoration: underline; 
+    font-weight: 500;
+    cursor: pointer;
+    color: blue;
+     }
+
+
+
+  
+     .appleMusicAd{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      
+      width: 100%;
+      padding: 50px;
+      margin-bottom:20px;
+    }
+    
+    .appleMusicAdText{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      
+      gap: 15px;
+    }
+    
+    .appleMusicAdText p{
+      font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        color: black;
+      margin:0;
+    }
+    
+    #appleMusicAdTextA{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      gap:25px;
+    }
+    
+    #appleMusicAdTextA a{
+      font-size: 20px;
+    }
+    
+    .appleMusicAdText #appleMusicAdTextImgId{
+      width: 300px;
+    }
+    
+    #appleMusicAdTextA a:hover {  
+      text-decoration: underline; 
+      font-weight: 500;
+      cursor: pointer;
+      color: blue;
+       }
+    
+
+
+
+    .appleTVArcadeAd{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  
+  width: 100%;
+  height: 400px;
+}
+
+.appleTV{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  width: 400px;
+  height: 100%;
+  background: black;
+}
+
+.appleTVText{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top:10px;
+  gap:10px;
+  color:white;
+}
+
+.appleArcadeImg{
+  margin-top:10px;
+}
+
+,appleArcadeImg{
+  margin-top:10px;
+}
+
+#appleTVImgId{
+  width: 100%;
+}
+.appleArcade{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  width: 400px;
+  height: 100%;
+  background:white;
+}
+
+#appleTVTextImgId{
+  width: 150px;
+}
+
+
+#appleTVTextA{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap:25px;
+  color:white;
+}
+
+#appleTVTextA a{
+  font-size: 15px;
+}
+
+#appleTVTextA a:hover {  
+  text-decoration: underline; 
+  font-weight: 500;
+  cursor: pointer;
+  color: blue;
+   }
+
+.appleTVText p{
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+  margin:0;
+}
+
+
+
+
+.appleArcadeText{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top:10px;
+  gap:10px;
+}
+
+#appleArcadeTextA{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap:25px;
+}
+
+#appleArcadeTextA a:hover {  
+  text-decoration: underline; 
+  font-weight: 500;
+  cursor: pointer;
+  color: blue;
+   }
+
+.appleArcadeText p{
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+  margin:0;
+}
+
+
+
+
+
+
+
+.appleTVArcadeAd{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  
+  width: 100%;
+  height: 700px;
+
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.appleTV{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  width: 700px;
+  height: 100%;
+  background: black;
+}
+
+.appleTVText{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top:10px;
+  gap:20px;
+  color:white;
+}
+
+.appleArcadeImg{
+  margin-top:10px;
+}
+
+.appleTVImg{
+  margin-top:20px;
+}
+.appleArcadeImg{
+  margin-top:10px;
+}
+
+#appleTVImgId{
+  width: 100%;
+}
+.appleArcade{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  width: 700px;
+  height: 100%;
+  background:white;
+}
+
+#appleTVTextImgId{
+  width: 250px;
+}
+
+
+#appleTVTextA{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap:25px;
+  color:white;
+}
+
+#appleTVTextA a{
+  font-size: 20px;
+}
+
+#appleArcadTextA a{
+  font-size: 20px;
+}
+
+#appleTVTextA a:hover {  
+  text-decoration: underline; 
+  font-weight: 500;
+  cursor: pointer;
+  color: blue;
+   }
+
+.appleTVText p{
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+  margin:0;
+}
+
+
+
+
+.appleArcadeText{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top:10px;
+  gap:10px;
+}
+
+#appleArcadeTextA{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap:25px;
+}
+
+#appleArcadeTextA a:hover {  
+  text-decoration: underline; 
+  font-weight: 500;
+  cursor: pointer;
+  color: blue;
+   }
+
+.appleArcadeText p{
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+  margin:0;
+}
+
+
+
+  
+  
