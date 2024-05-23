@@ -181,13 +181,21 @@
     transform: scaleX(1);
   }
   
-  .order{
+  .order1212{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
     flex-direction: column;
   }
+
+  .order1212 p{
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+  }
+
   
   .order1{
     display: flex;
@@ -196,40 +204,44 @@
     padding: 20px;
     flex-direction: row;
     gap: 30px;
+    padding-left: 0;
+  }
+  
+  #order1Id{
+    font-family: 'Oswald', sans-serif;
   }
   
   
   
-  
-  .input-container {
+  .input-container-gmail {
     position: relative;
     display: flex;
     width: 100%;
     max-width: 290px;
   }
   
-  .input-container > span,
-  .input-container .input {
+  .input-container-gmail > span,
+  .input-container-gmail .input-gmail {
     white-space: nowrap;
     display: block;
   }
   
-  .input-container > span,
-  .input-container .input:first-child {
+  .input-container-gmail > span,
+  .input-container-gmail .input-gmail:first-child {
     border-radius: 6px 0 0 6px;
   }
   
-  .input-container > span,
-  .input-container .input {
+  .input-container-gmail > span,
+  .input-container-gmail .input-gmail {
     border-radius: 0 6px 6px 0;
   }
   
-  .input-container > span,
-  .input-container .input {
+  .input-container-gmail > span,
+  .input-container-gmail .input-gmail {
     margin-left: -1px;
   }
   
-  .input-container .input {
+  .input-container-gmail .input-gmail {
     position: relative;
     z-index: 1;
     flex: 1 1 auto;
@@ -238,7 +250,7 @@
     margin-bottom: 0;
   }
   
-  .input-container span {
+  .input-container-gmail span {
     text-align: center;
     padding: 8px 12px;
     font-size: 14px;
@@ -250,13 +262,13 @@
     transition: background 0.3s ease, border 0.3s ease, color 0.3s ease;
   }
   
-  .input-container:focus-within > span {
+  .input-container-gmail:focus-within > span {
     color: #fff;
     background-color: #148cd1;
     border-color: #148cd1;
   }
   
-  .input {
+  .input-gmail {
     display: block;
     width: 100%;
     padding: 8px 16px;
@@ -276,7 +288,7 @@
     color: #CBD1DC;
   }
   
-  .input:focus {
+  .input-gmail:focus {
     outline: none;
     border-color: #148cd1;
   }
@@ -291,7 +303,7 @@
     --border-focus-color: rgb(0, 110, 255);
     --shadow-color: rgba(34, 60, 80, 0.2);
     --shadow-focus-color: rgba(0, 110, 255, 0.2);
-    --dropdown-button-color: hsl(155, 30%, 80%);
+    --dropdown-button-color: #e6e6e6;
     --dropdown-button-hover-color: #dad9d9;
   }
   
@@ -465,6 +477,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    font-family: 'Oswald', sans-serif;
   }
   
   .input-wrapper .textfield::before {
@@ -500,11 +513,6 @@
     top: 110%;
     opacity: 1;
     visibility: visible;
-  }
-  
-  
-  .input-container span{
-    background: hsl(155, 30%, 80%);
   }
   
   .ui-wrapper:focus-within {
@@ -834,4 +842,154 @@
   .ui-wrapper input#Sweden:checked~.input-wrapper .textfield::before {
     content: "+46";
   }
+  
+  .input-container-gmail span{
+    background: hsl(155, 30%, 80%);
+  }
+  
+  .dropdown-container{
+     background: hsl(155, 30%, 80%);
+  }
+  
+  .dropdown-container:hover{
+     background: hsl(155, 31%, 74%);
+  }
+
+
+
+  .order1212PTag{
+    width: 100%;
+    display: flex;
+    align-items: start;
+  }
+  
+  
+
+
+
+  i{
+    color: hsl(155, 30%, 80%);
+    font-size: 30px;
+  }
+  
+  .lastToBuyIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    flex-direction: row;
+
+    
+  }
+  
+  .lastToBuyIcons a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  
+  .lastToBuyIcons a:hover{
+    color: hsl(155, 30%, 80%);
+    text-decoration: underline;
+  }
+  
+  .lastToBuy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+    padding-left: 0;
+    gap: 30px;
+  }
+  
+  
+  .lastToBuyButton {
+    --width: 100px;
+    --height: 35px;
+    --tooltip-height: 35px;
+    --tooltip-width: 90px;
+    --gap-between-tooltip-to-button: 18px;
+    --button-color: #232323;
+    --tooltip-color: #fff;
+    width: var(--width);
+    height: var(--height);
+    background: var(--button-color);
+    position: relative;
+    text-align: center;
+    border-radius: 0.45em;
+    font-family: "Arial";
+    transition: background 0.3s;
+  }
+
+  
+  .lastToBuyButton::after,.button::before {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+  }
+  
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button-wrapper,.text,.icon {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    color: #fff;
+  }
+  
+  .text {
+    top: 0
+  }
+  
+  .text,.icon {
+    transition: top 0.5s;
+  }
+  
+  .icon {
+    color: #fff;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .lastToBuyButton:hover {
+    background: hsl(155, 30%, 80%);
+  }
+  
+  .lastToBuyButton:hover .text {
+    top: -100%;
+  }
+  
+  .lastToBuyButton:hover .icon {
+    top: 0;
+  }
+  
+  .lastToBuyButton:hover:before,.lastToBuyButton:hover:after {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .lastToBuyButton:hover:after {
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) - 20px);
+  }
+  
+  .lastToBuyButton:hover:before {
+    bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
+  }
+  
+  
+  
   
