@@ -43,7 +43,7 @@ function buyProduct(productId, script){
 
   //window.location.href="file:///D:/alice/Main%20Project/pages/myOrders/order.html";
   //file:///D:/Alice/My New Project/New-Main-Project/pages/myOrders/order.html
-  window.location.href="file:///D:/Alice/My New Project/New-Main-Project/pages/myOrders/order.html";
+  window.location.href="file:///D:/alice/Main%20Project/pages/myOrders/order.html";
 }
 
 
