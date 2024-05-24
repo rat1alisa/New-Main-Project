@@ -595,7 +595,6 @@ a{
 
 .slick-track{
     display: flex;
-    gap: 20px;
 }
 
 .input[type = "text"] {
@@ -1170,7 +1169,7 @@ a{
   margin-top:10px;
 }
 
-,appleArcadeImg{
+.appleArcadeImg{
   margin-top:10px;
 }
 
@@ -1192,6 +1191,9 @@ a{
   width: 150px;
 }
 
+#appleArcadeTextImgId{
+  width: 300px;
+}
 
 #appleTVTextA{
   display: flex;
@@ -1281,7 +1283,7 @@ a{
   justify-content: center;
   flex-direction: column;
   
-  width: 700px;
+  width: 50%;
   height: 100%;
   background: black;
 }
@@ -1316,7 +1318,7 @@ a{
   justify-content: center;
   flex-direction: column;
   
-  width: 700px;
+  width: 50%;
   height: 100%;
   background:white;
 }
@@ -1325,6 +1327,10 @@ a{
   width: 250px;
 }
 
+#appleArcademgId{
+  width:800px;
+  object-fit: cover;
+}
 
 #appleTVTextA{
   display: flex;
