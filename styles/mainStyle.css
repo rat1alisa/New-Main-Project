@@ -860,6 +860,7 @@ a{
     justify-content: center;
     flex-direction: column;
     
+    margin-top:20px;
     width: 100%;
     padding: 50px;
     
@@ -1087,7 +1088,7 @@ a{
       flex-direction: column;
       
       width: 100%;
-      padding: 50px;
+      padding: 30px;
       margin-bottom:20px;
     }
     
@@ -1328,7 +1329,7 @@ a{
 }
 
 #appleArcademgId{
-  width:800px;
+  width: 740px;
   object-fit: cover;
 }
 
@@ -1397,6 +1398,20 @@ a{
     font-weight: 400;
     color: black;
   margin:0;
+}
+
+
+.appleMusicAdText b{
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+  margin:0;
+}
+
+.appleMacAdImg #appleMacAdImgId{
+  padding-top: 20px;
+  width: 800px;
 }
 
 
