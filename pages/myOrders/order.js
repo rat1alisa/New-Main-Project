@@ -132,7 +132,7 @@ function showProduct(product){
 
                 <div class="radio-input">
                     <div class="info">
-                    <span class="question">Storage. How much space do you need?</span>
+                    <span class="question">${product.text}</span>
                 </div>`;
 
         product.storage.forEach((st) =>{
@@ -248,11 +248,7 @@ function showProduct(product){
     <input class="dropdown-checkbox" name="dropdown" id="dropdown" type="checkbox">
     <label class="dropdown-container" for="dropdown"></label>
     <div class="input-wrapper">
-        <legend>
-          <label for="phonenumber">
-            Phonenumber*
-          </label>
-        </legend>
+        
         <div class="textfield">
             <input pattern="\d+" maxlength="11" id="phonenumber" type="text">
             <span class="invalid-msg">This is not a valid phone number</span>
@@ -262,7 +258,6 @@ function showProduct(product){
         <ul>
             <li class="Austria"><label for="Austria"><span>🇦🇹</span>Austria (+43)</label></li>
             <li class="Belgium"><label for="Belgium"><span>🇧🇪</span>Belgium (+32)</label></li>
-          <li class="Belarus"><label for="Belarus"><span>🇧🇾</span>Belarus (+375)</label></li>
             <li class="Bulgaria"><label for="Bulgaria"><span>🇧🇬</span>Bulgaria (+359)</label></li>
             <li class="Croatia"><label for="Croatia"><span>🇭🇷</span>Croatia (+385)</label></li>
             <li class="Cyprus"><label for="Cyprus"><span>🇨🇾</span>Cyprus (+357)</label></li>
