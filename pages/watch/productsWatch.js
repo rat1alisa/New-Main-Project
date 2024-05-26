@@ -191,7 +191,7 @@ const products = [
         colors: [
             "#979797",
         ],
-        text:"Band. Choose your adventure",
+        text:"Band. Choose your adventure.",
         storage:[
             "Alpine Loop",
             "Ocean Band",
